@@ -2,7 +2,7 @@
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED-BASE-2021](https://ecored-sena.github.io/ECORED-BASE-2021)
+[https://ecored-sena.github.io/CF1_TECNICAS_VENTAS_JUEGOS_SUERTE_Y_AZAR/](https://ecored-sena.github.io/CF1_TECNICAS_VENTAS_JUEGOS_SUERTE_Y_AZAR/)
 
 #
 

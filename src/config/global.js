@@ -109,35 +109,6 @@ export default {
           },
         ],
       },
-      {
-        nombreRuta: 'tema5',
-        icono: 'far fa-file-alt',
-        numero: '5',
-        titulo:
-          'Etiqueta y protocolo en la atención al cliente, reglas y normas',
-        desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'tema6',
-        icono: 'far fa-file-alt',
-        numero: '6',
-        titulo: 'Relaciones interpersonales',
-        desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '6.1',
-            titulo: 'Tipos',
-            hash: 't_6_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '6.2',
-            titulo: 'Factores',
-            hash: 't_6_2',
-          },
-        ],
-      },
     ],
     subMenu: [
       {
