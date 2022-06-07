@@ -43,17 +43,17 @@ export default {
 
 <style lang="sass">
 .img-p
-  top: 3%
-  right: -3%
+  top: 10%
+  right: -50px
 
 .fondo-contenido
   position: absolute
   padding: 0px
   z-index: 2
-  height: 100%
-  width: 100%
+  height: 90%
+  width: 90%
 .banner-principal__info
-  padding-left: 80px  !important
+  padding-left: 70px  !important
   z-index: 3
   @media (max-width: 420px)
     padding: 30px !important
@@ -104,18 +104,18 @@ export default {
     animation: scale 5s ease-in-out infinite alternate
     @if $banner-principal-img-y == 'arriba'
       align-self: flex-start
-      padding-bottom: 1.5rem
+      padding-bottom: 1rem
       @media (min-width: $bp-min-sm)
         padding-bottom: 3rem!important
     @else if $banner-principal-img-y == 'abajo'
       align-self: flex-end
-      padding-top: 1.5rem
+      padding-top: 1rem
       @media (min-width: $bp-min-sm)
         padding-top: 3rem!important
     @else
       align-self: center
       padding-top: 1.5rem
-      padding-bottom: 1.5rem
+      padding-bottom: 1rem
       @media (min-width: $bp-min-sm)
         padding-top: 3rem!important
         padding-bottom: 3rem!important

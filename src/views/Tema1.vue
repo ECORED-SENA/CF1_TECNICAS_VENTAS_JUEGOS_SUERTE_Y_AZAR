@@ -5,21 +5,21 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 1
-      h1 Recursos tecnológicos para atender al cliente
+      h1  La comunicación comercial
 
 
     #t_1_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 1.1 Tipos
+      h2 1.1	Elementos generales de la comunicación
 
     separador
 
     #t_1_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 1.2 Características
+      h2 1.2 Niveles de la comunicación
 
     separador
 
     #t_1_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 1.3 Manejo
+      h2 1.3	Técnicas y habilidades
 
 
 </template>

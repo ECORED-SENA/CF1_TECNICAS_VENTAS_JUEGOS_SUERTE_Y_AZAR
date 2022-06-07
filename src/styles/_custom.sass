@@ -1,0 +1,26 @@
+//Introducción
+
+.bg_grad-01
+  position: relative
+  .row, 
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -3rem
+    top: 0px
+    left: 0px
+    width: calc( 100% + 6rem)
+    height: 100% 
+    background-image: url("../assets/curso/temas/fondo.jpg")
+    background-repeat: no-repeat
+    @media screen and ( max-width: 420px )
+      content: ''
+      position: absolute
+      margin: 0 -3rem
+      top: 0px
+      left: 0px
+      width: calc( 100% + 6rem)
+      height: 100%
+      background-image: url("../assets/curso/temas/fondo.jpg")
+      background-repeat: no-repeat
