@@ -83,6 +83,36 @@
     #t_1_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.2 Niveles de la comunicación
 
+    p.mb-4 En este segmento, se verán varios niveles según sus características, en primer lugar, caracterización de la comunicación comercial según el canal, de otro lado, caracterización según el contexto.
+
+    .tarjeta.fondo-slyder.mb-5(data-aos="fade-up")
+      SlyderA
+        .row
+          .col-lg-4
+            h5.aling-2 El medio ambiente:
+              p.mt-3 Es el medio que rodea externamente al sistema en donde se evidencian los aspectos sociales, económicos, políticos y culturales. Dado estos siempre deben estar relacionados con el contexto que los rodea y que influyen de manera directa o indirecta sobre el funcionamiento del mismo.
+          .col-lg-7.center
+            figure
+              img(src='@/assets/curso/tema1/1.png', alt='AvatarTop', style="width:715px;").m-5
+
+        .row
+          .col-lg-4
+            h5.aling-1 Insumos:
+              p.mt-3 Son aquellos componentes que ingresan al ciclo productivo que usualmente son las materias primas.
+          .col-lg-7.center
+            figure
+              img(src='@/assets/curso/tema1/2.png', alt='AvatarTop', style="width:715px;").m-5
+
+        .row
+          .col-lg-4
+            h5.aling-1 Entradas:
+              p.mt-3 Son los ingresos que tiene un sistema o un proceso, los cuales pueden ser recursos naturales, mano de obra humana, tecnologías o información que permiten la fluidez dentro del sistema.
+          .col-lg-7.center
+            figure
+              img(src='@/assets/curso/tema1/3.png', alt='AvatarTop', style="width:715px;").m-5
+
+
+
     separador
 
     #t_1_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
