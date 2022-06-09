@@ -79,7 +79,7 @@ export default {
     margin-bottom: 20px
 
   &__componente
-    margin-bottom: 20px
+    margin-bottom: 60px
     h1
       line-height: 1.1em
 
@@ -87,7 +87,7 @@ export default {
         font-size: 2em
 
   &__descripcion
-    margin-bottom: 20px
+    margin-bottom: 60px
 
   &__row
     @if $banner-principal-img-x == 'derecha'

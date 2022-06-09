@@ -2,12 +2,13 @@
 
 .bg_grad-01
   position: relative
+  padding: 30px
   .row, 
     position: relative
   &::before
     content: ''
     position: absolute
-    margin: 0 -3rem
+    margin: 0 -3rem 
     top: 0px
     left: 0px
     width: calc( 100% + 6rem)
@@ -23,4 +24,41 @@
       width: calc( 100% + 6rem)
       height: 100%
       background-image: url("../assets/curso/temas/fondo.jpg")
+      background-repeat: no-repeat
+
+.bgr
+  background-color: #F4EAFC !important
+  border-radius: 30px
+  
+.opa
+  opacity: 5
+
+.bg-amarillo-claro
+  background-color: #F8EBFD
+  border-radius: 0px
+
+.bg_grad-02
+  position: relative
+  padding: 30px
+  .row, 
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 0rem 
+    top: 0px
+    left: 0px
+    width: calc( 100% + 6rem)
+    height: 100% 
+    background-image: url("../assets/curso/tema1/fondo1.jpg")
+    background-repeat: no-repeat
+    @media screen and ( max-width: 420px )
+      content: ''
+      position: absolute
+      margin: 0 -3rem
+      top: 0px
+      left: 0px
+      width: calc( 100% + 6rem)
+      height: 100%
+      background-image: url("../assets/curso/tema1/fondo1.jpg")
       background-repeat: no-repeat
