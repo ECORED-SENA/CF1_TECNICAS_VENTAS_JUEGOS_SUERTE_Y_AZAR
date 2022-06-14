@@ -107,3 +107,56 @@
   margin-top: 2rem
   margin-left: 2rem
   white-space: 5px
+
+.tabs-c__content-item
+  background-image: url(../assets/curso/tema1/fondo.svg)
+  background-repeat: no-repeat
+  background-size: cover
+
+.tabs-c
+  border-bottom: 0px
+
+.tabs-c__header
+  margin-bottom: 0px
+
+.tabs-c.color-primario .tabs-c__tab--active
+  border-bottom-color: #361D90 !important
+
+.tabs-c.color-primario .tabs-c__tab--active::before
+  border-top-color: #361D90
+
+.tabs-c__tab--active
+  color: #12263F
+  font-weight: bold
+
+.txt-deco1
+  color: #12263F
+  font-weight: bold
+
+.bg_grad-01
+  position: relative
+  .row, .titulo-segundo, p, .titulo-sexto,
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -0rem
+    top: 30px
+    left: 0px
+    width: calc( 100% + 3rem)
+    height: 100%
+    background-image: url("../assets/curso/tema1/fondo2.jpg")
+    background-repeat: no-repeat
+    @media screen and ( max-width: 420px )
+      content: ''
+      position: absolute
+      margin: 0 -2rem
+      top: 60px
+      left: 0px
+      width: calc( 100% + 3rem)
+      height: 100%
+      background-image: url("../assets/curso/tema1/fondo2.jpg")
+      background-repeat: no-repeat
+
+.tarjeta--rosa
+  background-color: #F9F7EC

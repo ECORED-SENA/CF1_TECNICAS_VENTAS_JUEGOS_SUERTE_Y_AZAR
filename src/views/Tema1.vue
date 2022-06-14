@@ -85,6 +85,12 @@
 
     p.mb-4 En este segmento, se verán varios niveles según sus características, en primer lugar, caracterización de la comunicación comercial según el canal, de otro lado, caracterización según el contexto.
 
+    .row.mb-4
+      .col-md-3(data-aos="zoom-in")
+        img(src='@/assets/curso/tema1/title2.svg' alt='AvatarTop')
+
+    p.mb-4 A continuación, se exponen las características según el canal de comunicación:
+
     .tarjeta.fondo-slyder.mb-5(data-aos="fade-up")
       SlyderA
         .row
@@ -111,13 +117,110 @@
             figure
               img(src='@/assets/curso/tema1/3.png', alt='AvatarTop', style="width:715px;").m-5
 
+    .row.mb-4
+      .col-md-3(data-aos="zoom-in")
+        img(src='@/assets/curso/tema1/title3.svg' alt='AvatarTop')
 
+    p.mb-4 A continuación, se exponen las características según el canal de comunicación:
 
+    TabsC.color-primario.mb-5
+      .p-3.p-md-4(titulo="Nivel corporativo")
+        .row.align-items-center
+          .col-lg-6
+            figure
+              img(src='@/assets/curso/tema1/bn1.svg', style="width: 360px").m-0
+          .col-lg-5
+            p.mb-4 Este busca gestionar la reputación de la empresa, que es un intangible importante, pues se refiere a cómo el público percibe la marca. Es importante comunicar honestidad, buen servicio, imagen organizada, ética, entre otros valores corporativos.
+            h5.mb-0 Pregunta de reflexión: 
+            p.mb-0 ¿Sabe cuáles son los valores corporativos de la red de apuestas y juegos de azar?
+            span De no recordarlos, puede consultarlos con el supervisor o sitio web de la empresa.
+
+      .p-3.p-md-4(titulo="Nivel de marca")
+        .row.align-items-center
+          .col-lg-6
+            figure
+              img(src='@/assets/curso/tema1/bn2.svg', style="width: 360px").m-0
+          .col-lg-5
+            p.mb-5 El objetivo de este nivel es construir una imagen que el público la identifique con facilidad, esto ayuda a comercializar los productos y servicios. Está muy asociado a lo visual, con la disposición de la publicidad en puntos de venta. En caso de llevar uniformes, llevarlos de manera correcta.
+            h5.mb-0 Pregunta de reflexión: 
+            p.mb-0 ¿Conoce las políticas publicitarias, puntos de venta y vestuario de la fuerza de venta en la red donde está vinculado?
+            span De no recordar, estas se pueden consultar con el supervisor o el sitio web oficial.
     separador
 
-    #t_1_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 1.3	Técnicas y habilidades
+    .bg_grad-01.mb-5
+      #t_1_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+        h2 1.3	Técnicas y habilidades
 
+      .row
+        .col-md-7
+          .cajon.color-acento-contenido(style='background-color: #ffffff').p-5.mb-5
+            p.mb-0 En el área comercial, la comunicación y el contacto con el público son claves para el éxito, existen personas que de manera natural tienen la habilidad persuasiva de vender “hasta corbatas en un desierto”, de ahí la importancia de tener dominio en el uso de técnicas y destrezas en el arte de la comunicación en la venta. 
+
+    p.mb-4 A continuación, se mencionan algunos elementos importantes, que se deben asumir para el buen desempeño de las labores asignadas.
+
+    .row.mb-4
+      .col-lg-12.justify-content-center
+        .tarjeta.tarjeta--rosa.p-4
+          LineaTiempoC.color-acento-contenido(text-small)
+            .row.justify-content-center(titulo="Principio 1")
+              .col-md-6
+                figure
+                  img(src='@/assets/curso/tema1/4.png', style="width: 505px")
+              .col-md-6
+                h5.mb-4 Conocer los servicios que se ofrecen
+                p Un vendedor que improvisa y empieza a dar explicaciones de productos de manera insegura, difícilmente dará confianza a su cliente, una de las maneras efectivas para contrarrestar el titubeo es dominar el portafolio de servicios de tu red de apuestas y juegos de azar.
+
+            .row.justify-content-center(titulo="Principio 2")
+              .col-md-6
+                figure
+                  img(src='@/assets/curso/tema1/5.png', style="width: 505px")
+              .col-md-6
+                h5.mb-4 Asertividad en la comunicación
+                p Es la práctica donde un vendedor no se centra en vender, sino que su objetivo principal es cooperar con el cliente. Es un vendedor que, además, logra la combinación perfecta entre una conducta agresiva y pasiva en el momento de la venta (Nuño, 2018). El concepto asertividad está asociado al momento, persona, palabras y actitudes adecuadas para que el mensaje llegue de la mejor forma, de manera popular, podría referirse a ese “tacto” al comunicar ya sea para ofrecer un producto, resolver una duda, o calmar disgustos de los clientes.
+
+            .row.justify-content-center(titulo="Principio 3")
+              .col-md-6
+                figure
+                  img(src='@/assets/curso/tema1/6.png', style="width: 505px")
+              .col-md-6
+                h5.mb-4 Analiza y conoce tu segmento de mercado
+                p Conocer y alinearse a las necesidades de su público, así como las maneras de establecer relaciones comerciales con las personas de la zona es muy importante, si bien cada cliente es diferente, por lo general, hay factores comunes según la ciudad, barrio o sector donde se realizan las ventas. Es importante enfocarse en el contexto social y entender las motivaciones de tus compradores.
+
+            .row.justify-content-center(titulo="Principio 4")
+              .col-md-6
+                figure
+                  img(src='@/assets/curso/tema1/7.png', style="width: 505px")
+              .col-md-6
+                h5.mb-4 Escuchar de manera activa
+                p Tiene la ventaja de recibir información de los clientes para saber qué ruta y qué manera de atención es la más adecuada para aumentar el éxito de venta. Escuchar de manera adecuada (con contacto visual y demostrando atención), proporciona sensaciones agradables para el cliente haciéndolo sentir importante y aumentar su confianza. Adicionalmente, al identificar el perfil del cliente sabrás qué producto y servicio adicional podría necesitar esta persona.
+
+            .row.justify-content-center(titulo="Principio 5")
+              .col-md-6
+                figure
+                  img(src='@/assets/curso/tema1/8.png', style="width: 505px")
+              .col-md-6
+                h5.mb-4 Responde las objeciones con paciencia
+                p Ocasionalmente, hay clientes que se interesan, pero se oponen a la compra, el truco es convencer sin coaccionar, no repita lo mismo que ya le dijo para que compre, intenta indagar las motivaciones de la indecisión de compra e identifica la razón para moverse en la satisfacción de su objeción a la compra.
+    
+    p.mb-4  Se recomienda visualizar el siguiente video para profundizar sobre la comunicación asertiva
+
+    .row.justify-content-center.align-items-center.my-3
+      .col-lg-10(data-aos="zoom-in-down")
+        .tarjeta.color-acento-contenido.p-4.mb-5
+          .row.justify-content-center.align-items-center
+            .col-3.col-sm-2.col-lg-1
+              img(src="@/assets/curso/tema1/icon2.svg",  alt='', style="width:60px; display:block; margin:auto 0 ;")
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  h3.mb-1 Las características de la comunicación asertiva:
+                  p.text-small https://youtu.be/nfJPSfcl_tM
+                .col-md-auto
+                  a.boton.color-acento-botones.texto-blanco(href="https://youtu.be/nfJPSfcl_tM" target="_blank")
+                    span Ver
+                    i.fas.fa-link
+
+    separador
 
 </template>
 
