@@ -46,7 +46,7 @@
     content: ''
     position: absolute
     margin: 0 0rem 
-    top: 0px
+    top: -10px
     left: 0px
     width: calc( 100% + 6rem)
     height: 100% 
@@ -133,7 +133,7 @@
   color: #12263F
   font-weight: bold
 
-.bg_grad-01
+.bg_grad-03
   position: relative
   .row, .titulo-segundo, p, .titulo-sexto,
     position: relative
@@ -141,7 +141,7 @@
     content: ''
     position: absolute
     margin: 0 -0rem
-    top: 30px
+    top: 0px
     left: 0px
     width: calc( 100% + 3rem)
     height: 100%
@@ -160,3 +160,57 @@
 
 .tarjeta--rosa
   background-color: #F9F7EC
+
+//tema2
+
+.bg_grad-04
+  position: relative
+  .row, .titulo-segundo, p, .titulo-sexto,
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -3rem
+    top: 35px
+    left: 0px
+    width: calc( 100% + 6rem)
+    height: 100%
+    background-image: url("../assets/curso/tema2/fondo.jpg")
+    background-repeat: no-repeat
+    @media screen and ( max-width: 999px )
+      content: ''
+      position: absolute
+      margin: 0 -0rem
+      top: 0px
+      left: 0px
+      width: calc( 100% + 3rem)
+      height: 100%
+      background-image: url("../assets/curso/tema2/fondo.jpg")
+      background-repeat: no-repeat
+    @media screen and ( max-width: 400px )
+      content: ''
+      position: absolute
+      margin: 0 -3rem
+      top: 20px
+      left: 0px
+      width: calc( 100% + 6rem)
+      height: 100%
+      background-image: url("../assets/curso/tema2/fondo.jpg")
+      background-repeat: no-repeat
+
+.infografia-autores
+  position: relative
+  &__img
+    img
+      position: absolute
+      transition: opacity 0.3s ease-in-out
+      opacity: 0
+      &:hover
+        opacity: 1
+
+.back-tab
+  background-color: #F0E0F5
+  border-radius: 10px
+
+.tabs-a__tab
+  background-color: #E8E8E8 

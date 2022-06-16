@@ -16,7 +16,7 @@
           p Cuando se habla de comunicación enmarcada en el concepto “comercial”, se refiere al tipo de comunicación que se apoya en la fuerza de ventas para lograr que los consumidores adquieran un servicio o producto. Este tipo de comunicación pretende vender de manera directa y fidelizar al cliente, por lo que se requiere una relación con el consumidor para conocer sus características, gustos, necesidades, hábitos y quejas.<br><br/>Es fundamental tener claridad sobre los objetivos y metas de ventas, para alinear el proceso comunicativo entre vendedor y consumidor, de esta manera se encuentra la coherencia entre lo que se busca ofrecer y lo que el cliente recibirá a cambio (Martínez, 2017).
     p.mb-4 Se debe considerar que la comunicación comercial tiene características particulares, entre ellas:
 
-    .bg_grad-02
+    
       .row.justify-content-around.align-items-center
         .col-md-10
           .tarjeta.bgr.p-4.p-md-4.mb-2
@@ -42,29 +42,30 @@
 
     p.mb-5 Se deben tener en cuenta diversos componentes que participan en el proceso comunicativo. Según las fuentes, algunos autores determinan siete, otros las resumen en cinco, sin embargo, todas coinciden en los siguientes elementos generales de la comunicación:
 
-    .row.mb-4.justify-content-around.align-items-center
-      .col-md-6
-        ImagenInfografica.color-primario.opa.mb-5(data-aos="flip-up")
-          template(v-slot:imagen)
-            figure
-              img(src='@/assets/curso/tema1/vec1.svg', alt='Texto que describa la imagen')
-          .tarjeta.bg-amarillo-claro.p-3(x="92.3%" y="9%" numero="1")
-            p <b>EMISOR:</b>  Es el punto de partida de un mensaje, en el caso de la comunicación comercial, el actor principal que parte desde el rol de emisor podría ser el vendedor, o el cliente si se acerca por su propia iniciativa, incluso el emisor podría configurarse con mensajes publicitarios o máquinas que llamen la atención del cliente para iniciar un proceso comunicativo.
-      
-          .tarjeta.bg-amarillo-claro.p-3(x="98%" y="50.5%" numero="2")
-            p <b>RECEPTOR:</b> Se refiere a quien recibe la información, en un proceso de comunicación comercial, la interacción entre vendedor y cliente se hace dinámico y constantemente se intercambian de roles entre emisor receptor (lo que se denomina retroalimentación). Incluso, al igual que el emisor, podría ser entornos cibernéticos o máquinas.
-              
-          .tarjeta.bg-amarillo-claro.p-3(x="92.5%" y="91%" numero="3")
-            p <b>CANAL:</b> Medio físico donde el mensaje es transmitido, actualmente existen diversidad de canales, desde el natural como el aire, luz, hasta los artificiales como medios digitales, teléfonos, etc. 
-              
-          .tarjeta.bg-amarillo-claro.p-3(x="11.7%" y="91%" numero="4")
-            p <b>LENGUAJE:</b> Se refiere a los signos, códigos en común en que se transmite un mensaje para que ambos extremos puedan entenderse, el lenguaje podría hacerse verbal, escrito o cibernético.
-              
-          .tarjeta.bg-amarillo-claro.p-3(x="1.7%" y="52%" numero="5")
-            p <b>MENSAJE:</b> Se refiere a la propia información que el emisor transmite.
-              
-          .tarjeta.bg-amarillo-claro.p-3(x="8.2%" y="8.5%" numero="6")
-            p <b>CONTEXTO:</b> Circunstancias temporales, espaciales e intenciones (en este caso realizar una venta), que rodean el hecho o acto comunicativo y que permite comprender el mensaje en su justa medida. (Instituto Nacional de Tecnologías Educativas y de Formación del Profesorado, 2007).
+    .bg_grad-02
+      .row.mb-4.justify-content-around.align-items-center
+        .col-md-6
+          ImagenInfografica.color-primario.opa.mb-5(data-aos="flip-up")
+            template(v-slot:imagen)
+              figure
+                img(src='@/assets/curso/tema1/vec1.svg', alt='Texto que describa la imagen')
+            .tarjeta.bg-amarillo-claro.p-3(x="92.3%" y="9%" numero="1")
+              p <b>EMISOR:</b>  Es el punto de partida de un mensaje, en el caso de la comunicación comercial, el actor principal que parte desde el rol de emisor podría ser el vendedor, o el cliente si se acerca por su propia iniciativa, incluso el emisor podría configurarse con mensajes publicitarios o máquinas que llamen la atención del cliente para iniciar un proceso comunicativo.
+        
+            .tarjeta.bg-amarillo-claro.p-3(x="98%" y="50.5%" numero="2")
+              p <b>RECEPTOR:</b> Se refiere a quien recibe la información, en un proceso de comunicación comercial, la interacción entre vendedor y cliente se hace dinámico y constantemente se intercambian de roles entre emisor receptor (lo que se denomina retroalimentación). Incluso, al igual que el emisor, podría ser entornos cibernéticos o máquinas.
+                
+            .tarjeta.bg-amarillo-claro.p-3(x="92.5%" y="91%" numero="3")
+              p <b>CANAL:</b> Medio físico donde el mensaje es transmitido, actualmente existen diversidad de canales, desde el natural como el aire, luz, hasta los artificiales como medios digitales, teléfonos, etc. 
+                
+            .tarjeta.bg-amarillo-claro.p-3(x="11.7%" y="91%" numero="4")
+              p <b>LENGUAJE:</b> Se refiere a los signos, códigos en común en que se transmite un mensaje para que ambos extremos puedan entenderse, el lenguaje podría hacerse verbal, escrito o cibernético.
+                
+            .tarjeta.bg-amarillo-claro.p-3(x="1.7%" y="52%" numero="5")
+              p <b>MENSAJE:</b> Se refiere a la propia información que el emisor transmite.
+                
+            .tarjeta.bg-amarillo-claro.p-3(x="8.2%" y="8.5%" numero="6")
+              p <b>CONTEXTO:</b> Circunstancias temporales, espaciales e intenciones (en este caso realizar una venta), que rodean el hecho o acto comunicativo y que permite comprender el mensaje en su justa medida. (Instituto Nacional de Tecnologías Educativas y de Formación del Profesorado, 2007).
 
     .row.mb-4
       .col-md-3(data-aos="zoom-in")
@@ -147,11 +148,11 @@
             span De no recordar, estas se pueden consultar con el supervisor o el sitio web oficial.
     separador
 
-    .bg_grad-01.mb-5
+    .bg_grad-03.mb-5
       #t_1_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
         h2 1.3	Técnicas y habilidades
 
-      .row
+      .row.m-5.p-5
         .col-md-7
           .cajon.color-acento-contenido(style='background-color: #ffffff').p-5.mb-5
             p.mb-0 En el área comercial, la comunicación y el contacto con el público son claves para el éxito, existen personas que de manera natural tienen la habilidad persuasiva de vender “hasta corbatas en un desierto”, de ahí la importancia de tener dominio en el uso de técnicas y destrezas en el arte de la comunicación en la venta. 
