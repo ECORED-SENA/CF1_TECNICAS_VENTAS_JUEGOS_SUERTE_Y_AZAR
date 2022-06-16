@@ -152,9 +152,9 @@
       #t_1_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
         h2 1.3	Técnicas y habilidades
 
-      .row.m-5.p-5
-        .col-md-7
-          .cajon.color-acento-contenido(style='background-color: #ffffff').p-5.mb-5
+      .row.m-5.p-5.col-12
+        .col-md-7.col-12
+          .cajon.color-acento-contenido(style='background-color: #ffffff').p-4.mb-4
             p.mb-0 En el área comercial, la comunicación y el contacto con el público son claves para el éxito, existen personas que de manera natural tienen la habilidad persuasiva de vender “hasta corbatas en un desierto”, de ahí la importancia de tener dominio en el uso de técnicas y destrezas en el arte de la comunicación en la venta. 
 
     p.mb-4 A continuación, se mencionan algunos elementos importantes, que se deben asumir para el buen desempeño de las labores asignadas.
