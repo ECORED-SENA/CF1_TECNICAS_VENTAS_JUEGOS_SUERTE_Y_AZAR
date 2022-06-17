@@ -3,7 +3,18 @@
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-   
+    p.mb-4 A continuación, se presenta una síntesis del componente formativo de manera gráfica.
+
+    .row.justify-content-center
+      .col-lg-11.mb-5
+        figure
+          img(src="@/assets/curso/temas/sintesis.svg", alt="alt")
+      .col-auto
+        a.anexo.mb-4(:href="obtenerLink('/downloads/sintesis.pdf')" target="_blank")
+          .anexo__icono
+            img(src="@/assets/template/icono-pdf.svg")
+          .anexo__texto
+            p Anexo. Síntesis
 
 </template>
 
