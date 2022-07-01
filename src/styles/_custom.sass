@@ -30,6 +30,10 @@
   background-color: #F4EAFC !important
   border-radius: 30px
   
+.bgr2
+  background-color: #361D90 !important
+  border-radius: 10px
+
 .opa
   opacity: 5
 
@@ -96,18 +100,6 @@
   transform: translateY(-50%) rotate(-90deg)
   right: 0px
 
-.aling-1
-  text-align: left  !important
-  margin-top: 6rem
-  margin-left: 3rem
-  white-space: 10px
-
-.aling-2
-  text-align: left  !important
-  margin-top: 2rem
-  margin-left: 2rem
-  white-space: 5px
-
 .tabs-c__content-item
   background-image: url(../assets/curso/tema1/fondo.svg)
   background-repeat: no-repeat
@@ -140,26 +132,46 @@
   &::before
     content: ''
     position: absolute
-    margin: 0 -0rem
-    top: 0px
+    margin: 0 -3rem
+    top: 90px
     left: 0px
-    width: calc( 100% + 3rem)
-    height: 100%
-    background-image: url("../assets/curso/tema1/fondo2.jpg")
+    width: calc( 100% + 6rem)
+    height: 80%
+    background-image: url("../assets/curso/tema1/fondo2.svg")
     background-repeat: no-repeat
     @media screen and ( max-width: 420px )
       content: ''
       position: absolute
       margin: 0 -2rem
-      top: 60px
+      top: 320px
       left: 0px
       width: calc( 100% + 3rem)
       height: 100%
-      background-image: url("../assets/curso/tema1/fondo2.jpg")
+      background-image: url("../assets/curso/tema1/fondo2.svg")
       background-repeat: no-repeat
 
 .tarjeta--rosa
   background-color: #F9F7EC
+
+.img-infografica.color-primario .img-infografica__item__numero, .img-infografica-b.color-primario .img-infografica__item__numero
+  color: #FFFFFF
+
+.cen1
+  text-align: center
+  justify-content: center
+
+.bottomcen
+  margin-top: 60px
+  margin-left: auto;
+  margin-right: auto;
+
+.centrarimg
+  float: right
+  margin-top: -100px
+  margin-right: -80px
+  @media screen and ( max-width: 999px )
+    margin-top: 0px
+    margin-right: 0px
 
 //tema2
 
@@ -246,3 +258,10 @@
 
 .color-3
   background-color: #B8B2CF
+
+.tarjeta-avatar .tarjeta 
+  display: inline-block
+  padding-top: 60px !important
+  height: 360px
+  @media screen and ( max-width: 1400px )
+    height: 100%

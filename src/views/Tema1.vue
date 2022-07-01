@@ -21,10 +21,10 @@
         .col-md-10
           .tarjeta.bgr.p-4.p-md-4.mb-2
             .row.align-items-center
-              .col-md-2
+              .col-md-2.col-6.mb-2
                 figure
                   img(src='@/assets/curso/tema1/icon1.svg', class='img-fluid' style="width: 109px")
-              .col-10.col-sm-10.col-md-10.align-items-center
+              .col-12.col-sm-10.col-md-10.align-items-center
                 ul.lista-ul.lista-ul.lista-ul--color
                     li
                       i.fas.fa-check
@@ -43,33 +43,62 @@
     p.mb-5 Se deben tener en cuenta diversos componentes que participan en el proceso comunicativo. Según las fuentes, algunos autores determinan siete, otros las resumen en cinco, sin embargo, todas coinciden en los siguientes elementos generales de la comunicación:
 
     .bg_grad-02
-      .row.mb-4.justify-content-around.align-items-center
+      .row.mb-4.justify-content-center
         .col-md-6
           ImagenInfografica.color-primario.opa.mb-5(data-aos="flip-up")
             template(v-slot:imagen)
               figure
                 img(src='@/assets/curso/tema1/vec1.svg', alt='Texto que describa la imagen')
-            .tarjeta.bg-amarillo-claro.p-3(x="92.3%" y="9%" numero="1")
-              p <b>EMISOR:</b>  Es el punto de partida de un mensaje, en el caso de la comunicación comercial, el actor principal que parte desde el rol de emisor podría ser el vendedor, o el cliente si se acerca por su propia iniciativa, incluso el emisor podría configurarse con mensajes publicitarios o máquinas que llamen la atención del cliente para iniciar un proceso comunicativo.
+            .tarjeta.bg-amarillo-claro.p-3.cen1(x="92.3%" y="9%" numero="1")
+              .col-md-4
+                img(src='@/assets/curso/tema1/1.svg', alt='Imagen alineada al centro con html' style="width: 76px").mb-0
+              .col-md-12
+                h5 EMISOR:
+                p Es el punto de partida de un mensaje, en el caso de la comunicación comercial, el actor principal que parte desde el rol de emisor podría ser el vendedor, o el cliente si se acerca por su propia iniciativa, incluso el emisor podría configurarse con mensajes publicitarios o máquinas que llamen la atención del cliente para iniciar un proceso comunicativo.
         
-            .tarjeta.bg-amarillo-claro.p-3(x="98%" y="50.5%" numero="2")
-              p <b>RECEPTOR:</b> Se refiere a quien recibe la información, en un proceso de comunicación comercial, la interacción entre vendedor y cliente se hace dinámico y constantemente se intercambian de roles entre emisor receptor (lo que se denomina retroalimentación). Incluso, al igual que el emisor, podría ser entornos cibernéticos o máquinas.
+            .tarjeta.bg-amarillo-claro.p-3.cen1(x="98%" y="50.5%" numero="2")
+              .col-md-4
+                img(src='@/assets/curso/tema1/2.svg', alt='Imagen alineada al centro con html' style="width: 76px").mb-0
+              .col-md-12
+                h5 RECEPTOR: 
+                p Se refiere a quien recibe la información, en un proceso de comunicación comercial, la interacción entre vendedor y cliente se hace dinámico y constantemente se intercambian de roles entre emisor receptor (lo que se denomina retroalimentación). Incluso, al igual que el emisor, podría ser entornos cibernéticos o máquinas.
                 
-            .tarjeta.bg-amarillo-claro.p-3(x="92.5%" y="91%" numero="3")
-              p <b>CANAL:</b> Medio físico donde el mensaje es transmitido, actualmente existen diversidad de canales, desde el natural como el aire, luz, hasta los artificiales como medios digitales, teléfonos, etc. 
+            .tarjeta.bg-amarillo-claro.p-3.cen1(x="92.5%" y="91%" numero="3")
+              .col-md-4
+                img(src='@/assets/curso/tema1/3.svg', alt='Imagen alineada al centro con html' style="width: 76px").mb-0
+              .col-md-12
+                h5 CANAL:
+                p Medio físico donde el mensaje es transmitido, actualmente existen diversidad de canales, desde el natural como el aire, luz, hasta los artificiales como medios digitales, teléfonos, etc. 
                 
-            .tarjeta.bg-amarillo-claro.p-3(x="11.7%" y="91%" numero="4")
-              p <b>LENGUAJE:</b> Se refiere a los signos, códigos en común en que se transmite un mensaje para que ambos extremos puedan entenderse, el lenguaje podría hacerse verbal, escrito o cibernético.
+            .tarjeta.bg-amarillo-claro.p-3.cen1(x="11.7%" y="91%" numero="4")
+              .col-md-4
+                img(src='@/assets/curso/tema1/4.svg', alt='Imagen alineada al centro con html' style="width: 76px").mb-0
+              .col-md-12
+                h5 LENGUAJE:
+                p Se refiere a los signos, códigos en común en que se transmite un mensaje para que ambos extremos puedan entenderse, el lenguaje podría hacerse verbal, escrito o cibernético.
                 
-            .tarjeta.bg-amarillo-claro.p-3(x="1.7%" y="52%" numero="5")
-              p <b>MENSAJE:</b> Se refiere a la propia información que el emisor transmite.
+            .tarjeta.bg-amarillo-claro.p-3.cen1(x="1.7%" y="52%" numero="5")
+              .col-md-4
+                img(src='@/assets/curso/tema1/5.svg', alt='Imagen alineada al centro con html' style="width: 76px").mb-0
+              .col-md-12
+                h5 MENSAJE:
+                p Se refiere a la propia información que el emisor transmite.
                 
-            .tarjeta.bg-amarillo-claro.p-3(x="8.2%" y="8.5%" numero="6")
-              p <b>CONTEXTO:</b> Circunstancias temporales, espaciales e intenciones (en este caso realizar una venta), que rodean el hecho o acto comunicativo y que permite comprender el mensaje en su justa medida. (Instituto Nacional de Tecnologías Educativas y de Formación del Profesorado, 2007).
+            .tarjeta.bg-amarillo-claro.p-3.cen1(x="8.2%" y="8.5%" numero="6")
+              .col-md-4
+                img(src='@/assets/curso/tema1/5.svg', alt='Imagen alineada al centro con html' style="width: 76px").mb-0
+              .col-md-12
+                h5 CONTEXTO: 
+                p Circunstancias temporales, espaciales e intenciones (en este caso realizar una venta), que rodean el hecho o acto comunicativo y que permite comprender el mensaje en su justa medida. (Instituto Nacional de Tecnologías Educativas y de Formación del Profesorado, 2007).
 
     .row.mb-4
-      .col-md-3(data-aos="zoom-in")
-        img(src='@/assets/curso/tema1/title1.svg' alt='AvatarTop')
+      .col-md-3.p-2
+        .tarjeta.bgr2.p-2
+          .row.align-items-center.justify-content-center
+            .col-md-2
+              img(src='@/assets/curso/temas/icon1.svg' style="width: 35px")
+            .col-md-10
+              h5.text-white.m-0 Esquema de la comunicación
 
     p.mb-4 Con relación a los conceptos anteriores, la interrelación se desarrolla como se muestra en la siguiente figura 1:
     
@@ -87,40 +116,50 @@
     p.mb-4 En este segmento, se verán varios niveles según sus características, en primer lugar, caracterización de la comunicación comercial según el canal, de otro lado, caracterización según el contexto.
 
     .row.mb-4
-      .col-md-3(data-aos="zoom-in")
-        img(src='@/assets/curso/tema1/title2.svg' alt='AvatarTop')
+      .col-md-3.p-2
+        .tarjeta.bgr2.p-2
+          .row.align-items-center.justify-content-center
+            .col-md-2
+              img(src='@/assets/curso/temas/icon1.svg' style="width: 35px")
+            .col-md-10
+              h5.text-white.m-0 Característica según el canal:
 
     p.mb-4 A continuación, se exponen las características según el canal de comunicación:
 
     .tarjeta.fondo-slyder.mb-5(data-aos="fade-up")
       SlyderA
-        .row
+        .row.p-4
           .col-lg-4
-            h5.aling-2 El medio ambiente:
-              p.mt-3 Es el medio que rodea externamente al sistema en donde se evidencian los aspectos sociales, económicos, políticos y culturales. Dado estos siempre deben estar relacionados con el contexto que los rodea y que influyen de manera directa o indirecta sobre el funcionamiento del mismo.
-          .col-lg-7.center
+            h5 El medio ambiente:
+              p Es el medio que rodea externamente al sistema en donde se evidencian los aspectos sociales, económicos, políticos y culturales. Dado estos siempre deben estar relacionados con el contexto que los rodea y que influyen de manera directa o indirecta sobre el funcionamiento del mismo.
+          .col-lg-8
             figure
-              img(src='@/assets/curso/tema1/1.png', alt='AvatarTop', style="width:715px;").m-5
+              img(src='@/assets/curso/tema1/1.png', alt='AvatarTop', style="width:715px;")
 
-        .row
+        .row.p-4
           .col-lg-4
-            h5.aling-1 Insumos:
-              p.mt-3 Son aquellos componentes que ingresan al ciclo productivo que usualmente son las materias primas.
-          .col-lg-7.center
+            h5 Insumos:
+              p Son aquellos componentes que ingresan al ciclo productivo que usualmente son las materias primas.
+          .col-lg-8
             figure
-              img(src='@/assets/curso/tema1/2.png', alt='AvatarTop', style="width:715px;").m-5
+              img(src='@/assets/curso/tema1/2.png', alt='AvatarTop', style="width:715px;")
 
-        .row
+        .row.p-4
           .col-lg-4
-            h5.aling-1 Entradas:
-              p.mt-3 Son los ingresos que tiene un sistema o un proceso, los cuales pueden ser recursos naturales, mano de obra humana, tecnologías o información que permiten la fluidez dentro del sistema.
-          .col-lg-7.center
+            h5 Entradas:
+              p Son los ingresos que tiene un sistema o un proceso, los cuales pueden ser recursos naturales, mano de obra humana, tecnologías o información que permiten la fluidez dentro del sistema.
+          .col-lg-8
             figure
-              img(src='@/assets/curso/tema1/3.png', alt='AvatarTop', style="width:715px;").m-5
+              img(src='@/assets/curso/tema1/3.png', alt='AvatarTop', style="width:715px;")
 
     .row.mb-4
-      .col-md-3(data-aos="zoom-in")
-        img(src='@/assets/curso/tema1/title3.svg' alt='AvatarTop')
+      .col-md-4.p-2
+        .tarjeta.bgr2.p-2
+          .row.align-items-center.justify-content-center
+            .col-md-2
+              img(src='@/assets/curso/temas/icon1.svg' style="width: 35px")
+            .col-md-10
+              h5.text-white.m-0 Característica según el contexto:
 
     p.mb-4 A continuación, se exponen las características según el canal de comunicación:
 
@@ -129,8 +168,8 @@
         .row.align-items-center
           .col-lg-6
             figure
-              img(src='@/assets/curso/tema1/bn1.svg', style="width: 360px").m-0
-          .col-lg-5
+              img.bottomcen(src='@/assets/curso/tema1/bn1.svg', style="width: 360px")
+          .col-lg-6
             p.mb-4 Este busca gestionar la reputación de la empresa, que es un intangible importante, pues se refiere a cómo el público percibe la marca. Es importante comunicar honestidad, buen servicio, imagen organizada, ética, entre otros valores corporativos.
             h5.mb-0 Pregunta de reflexión: 
             p.mb-0 ¿Sabe cuáles son los valores corporativos de la red de apuestas y juegos de azar?
@@ -140,8 +179,8 @@
         .row.align-items-center
           .col-lg-6
             figure
-              img(src='@/assets/curso/tema1/bn2.svg', style="width: 360px").m-0
-          .col-lg-5
+              img.bottomcen(src='@/assets/curso/tema1/bn2.svg', style="width: 360px")
+          .col-lg-6
             p.mb-5 El objetivo de este nivel es construir una imagen que el público la identifique con facilidad, esto ayuda a comercializar los productos y servicios. Está muy asociado a lo visual, con la disposición de la publicidad en puntos de venta. En caso de llevar uniformes, llevarlos de manera correcta.
             h5.mb-0 Pregunta de reflexión: 
             p.mb-0 ¿Conoce las políticas publicitarias, puntos de venta y vestuario de la fuerza de venta en la red donde está vinculado?
@@ -152,10 +191,14 @@
       #t_1_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
         h2 1.3	Técnicas y habilidades
 
-      .row.m-5.p-5.col-12
-        .col-md-7.col-12
+      .row.align-items-center
+        .col-md-6
           .cajon.color-acento-contenido(style='background-color: #ffffff').p-4.mb-4
             p.mb-0 En el área comercial, la comunicación y el contacto con el público son claves para el éxito, existen personas que de manera natural tienen la habilidad persuasiva de vender “hasta corbatas en un desierto”, de ahí la importancia de tener dominio en el uso de técnicas y destrezas en el arte de la comunicación en la venta. 
+
+        .col-md-5
+          figure
+              img.centrarimg(src='@/assets/curso/tema1/img1.png', style="width: 520px")
 
     p.mb-4 A continuación, se mencionan algunos elementos importantes, que se deben asumir para el buen desempeño de las labores asignadas.
 
@@ -217,7 +260,7 @@
                   h3.mb-1 Las características de la comunicación asertiva:
                   p.text-small https://youtu.be/nfJPSfcl_tM
                 .col-md-auto
-                  a.boton.color-acento-botones.texto-blanco(href="https://youtu.be/nfJPSfcl_tM" target="_blank")
+                  a.boton.color-acento-botones(href="https://youtu.be/nfJPSfcl_tM" target="_blank")
                     span Ver
                     i.fas.fa-link
 

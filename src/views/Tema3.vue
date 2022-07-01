@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 3
-      h1 PORTAFOLIO DE PRODUCTOS Y SERVICIOS
+      h1 Portafolio de productos y servicios
     
     p.mb-4 Las marcas de juegos de azar como chances, loterías, apuestas, etc., están ubicadas a lo largo y ancho del territorio nacional como marcas propias e independientes. En este orden, hay entidades que comercializan estos productos y son las que más generan oportunidades de trabajo al emplear o asociar ciudadanos como su fuerza de venta y llevar al público final los productos de las marcas de apuestas y otros servicios.
     
@@ -31,12 +31,13 @@
         .infografia-autores2
           figure.justify-center(data-aos="zoom-in-up")
             img(src="@/assets/curso/tema3/vec1.svg" alt="Adornos flotantes")
-          .infografia-autores__img: img(src="@/assets/curso/tema3/loterias.svg" style="left: 65% ; right:  ; top: 5% ; bottom:  ; width: 370px")
-          .infografia-autores__img(@mouseover="mostrarIndicador = false")
-            img(src="@/assets/curso/tema3/apuesta.svg" style="left: 65% ; right:  ; top: 35% ; bottom:  ; width: 370px")
+          .infografia-autores__img: img(src="@/assets/curso/tema3/loterias.svg" style="left: 65% ; right:  ; top: 5% ; bottom:  ; width: 395px")
+          .infografia-autores__img(@mouseover="mostrarIndicador = true")
+            img(src="@/assets/curso/tema3/apuesta.svg" style="left: 65% ; right:  ; top: 35% ; bottom:  ; width: 395px")
             .indicador--hover(v-if="mostrarIndicador" style=" top: 19% ")
-          .infografia-autores__img: img(src="@/assets/curso/tema3/chance.svg" style="left: -40% ; right:  ; top: 5% ; bottom:  ; width: 370px")
-          .infografia-autores__img: img(src="@/assets/curso/tema3/rifas.svg" style="left: -40% ; right:  ; top: 35% ; bottom:  ; width: 370px")
+          .infografia-autores__img: img(src="@/assets/curso/tema3/chance.svg" style="left: -40% ; right:  ; top: 5% ; bottom:  ; width: 395px")
+          .infografia-autores__img: img(src="@/assets/curso/tema3/rifas.svg" style="left: -40% ; right:  ; top: 35% ; bottom:  ; width: 395px")
+    br
     br
     p.mb-4 Por lo general, es posible encontrar agencias comercializadoras con los siguientes productos y servicios adicionales:
 
@@ -105,7 +106,7 @@
 export default {
   name: 'Tema3',
   data: () => ({
-    // variables de vue
+    mostrarIndicador: true,
   }),
   mounted() {
     this.$nextTick(() => {

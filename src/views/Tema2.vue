@@ -33,9 +33,9 @@
       .infografia-autores
         figure.justify-center(data-aos="zoom-in-up")
           img(src="@/assets/curso/tema2/1.svg" alt="Adornos flotantes")
-        .infografia-autores__img(@mouseover="mostrarIndicador = false")
+        .infografia-autores__img(@mouseover="mostrarIndicador = true")
           img(src="@/assets/curso/tema2/flo1.svg" style="left: 65% ; right:  ; top: 13% ; bottom:  ; width: 280px ")
-          .indicador--hover(v-if="mostrarIndicador" style=" top: 19% ")
+          .indicador--hover(v-if="mostrarIndicador" style="left: 68% ; top: 15% ;")
         .infografia-autores__img: img(src="@/assets/curso/tema2/flo2.svg" style="left: 71% ; right:  ; top: 31% ; bottom:  ; width: 280px ")
         .infografia-autores__img: img(src="@/assets/curso/tema2/flo3.svg" style="left: 72% ; right:  ; top: 46% ; bottom:  ; width: 280px ")
         .infografia-autores__img: img(src="@/assets/curso/tema2/flo4.svg" style="left: 71% ; right:  ; top: 62% ; bottom:  ; width: 280px ")
@@ -55,75 +55,75 @@
       .col-lg-12
         TabsA.color-acento-contenido(data-aos="fade")
           .tarjeta.back-tab.px-5.py-4(titulo="Amigable")
-            .row.px-4.py-2.justify-content-center.align-items-center
-              .col-lg-5
+            .row.px-2.py-2.justify-content-center.align-items-center
+              .col-lg-5.col-12
                 h4 Amigable
                 p.mb-3 Es importante tener en cuenta que este tipo de clientes se puede extralimitar haciendo preguntas, por ejemplo, de tipo personal. Se debe atender con amabilidad, con educación, pero no olvidando que es un cliente y no un amigo.
-              .col-lg-7
+              .col-lg-7.col-12
                 img.mx-3(src="@/assets/curso/tema2/1.png",  alt='', style="width:430px; display:block; margin:20px ;")
               
           .tarjeta.back-tab.px-5.py-4(titulo="Frívolo o exigente")
-            .row.px-5.py-3.justify-content-center.align-items-center
-              .col-lg-5
+            .row.px-2.py-2.justify-content-center.align-items-center
+              .col-lg-5.col-12
                 h4 Frívolo o exigente 
                 p.mb-3 Suelen ser personas un poco prepotentes y exigentes, es por ello, que el vendedor no solo debe tener competencias sociales de amabilidad y paciencia para no caer en sus provocaciones, no contestar de manera incorrecta (sería como morder el anzuelo que ellos quieren que muerdas), es necesario tener seguridad en las respuestas y para esto es requisito fundamental dominar el portafolio de servicios y los planes de premios, así como los límites y otros temas de la empresa.
-              .col-lg-7
+              .col-lg-7.col-12
                 img.mx-3(src="@/assets/curso/tema2/2.png",  alt='', style="width:430px; display:block; margin:20px ;")
 
           .tarjeta.back-tab.px-5.py-4(titulo="Tímido")
-            .row.px-5.py-3.justify-content-center.align-items-center
-              .col-lg-5
+            .row.px-2.py-2.justify-content-center.align-items-center
+              .col-lg-5.col-12
                 h4 Tímido
                 p.mb-3 Se les debe tratar con cuidado, dándoles el tiempo que necesitan para su decisión, transmitirle confianza y explicarle bien los productos y servicios. Son clientes fáciles de convencer, pero también es importante tener los límites éticos corporativos para no entrar a abusar de este tipo de clientes.
-              .col-lg-7
+              .col-lg-7.col-12
                 img.mx-3(src="@/assets/curso/tema2/3.png",  alt='', style="width:430px; display:block; margin:20px ;")
               
           .tarjeta.back-tab.px-5.py-4(titulo="Independiente")
-            .row.px-5.py-3.justify-content-center.align-items-center
-              .col-lg-5
+            .row.px-2.py-2.justify-content-center.align-items-center
+              .col-lg-5.col-12
                 h4 Independiente
                 p.mb-3 El modo de tratarlo es con cordialidad y amabilidad, pero no ofrecerles una lista larga de servicios, pues son clientes que desean información precisa, pocas veces les puede interesar servicios adicionales, por eso se debe ir ofreciendo otras cosas de manera paulatina y concisa.
-              .col-lg-7
+              .col-lg-7.col-12
                 img.mx-3(src="@/assets/curso/tema2/4.png",  alt='', style="width:430px; display:block; margin:20px ;")
               
           .tarjeta.back-tab.px-5.py-4(titulo="Curioso")
-            .row.px-5.py-3.justify-content-center.align-items-center
-              .col-lg-5
+            .row.px-2.py-2.justify-content-center.align-items-center
+              .col-lg-5.col-12
                 h4 Curioso
                 p.mb-3 Este tipo de clientes deben atenderse amablemente y transmitirles mucha información, de manera que sientan que su curiosidad está satisfecha. Al responder alguna pregunta que se haga, no contestarle de manera cortante o concisa, es recomendable siempre que la respuesta venga acompañada de un complemento añadido, como algún detalle o beneficio del servicio.
-              .col-lg-7
+              .col-lg-7.col-12
                 img.mx-3(src="@/assets/curso/tema2/5.png",  alt='', style="width:430px; display:block; margin:20px ;")
               
           .tarjeta.back-tab.px-5.py-4(titulo="Enfadado")
-            .row.px-5.py-3.justify-content-center.align-items-center
-              .col-lg-5
+            .row.px-2.py-2.justify-content-center.align-items-center
+              .col-lg-5.col-12
                 h4 Enfadado
                 p.mb-3 Este tipo de clientes son un reto para la paciencia y amabilidad, pero siempre se debe mantener el control. A este tipo de clientes se les debe dejar hablar y permitirle liberarse de frustraciones, escuchar atento mostrando empatía y haciéndole saber que estás realizando acciones para resolver sus reclamos.
-              .col-lg-7
+              .col-lg-7.col-12
                 img.mx-3(src="@/assets/curso/tema2/6.png",  alt='', style="width:430px; display:block; margin:20px ;")
               
           .tarjeta.back-tab.px-5.py-4(titulo="Desconfiado")
-            .row.px-5.py-3.justify-content-center.align-items-center
-              .col-lg-5
+            .row.px-2.py-2.justify-content-center.align-items-center
+              .col-lg-5.col-12
                 h4 Desconfiado
                 p.mb-3 A los desconfiados no debería ser un problema su atención cuando estamos en una red legal y bien respaldada, basta con suministrar y entregar toda la información que requiere, se debe ser cuidadoso en no dudar, mostrar siempre seguridad y transmitir tranquilidad. 
-              .col-lg-7
+              .col-lg-7.col-12
                 img.mx-3(src="@/assets/curso/tema2/7.png",  alt='', style="width:430px; display:block; margin:20px ;")
               
           .tarjeta.back-tab.px-5.py-4(titulo="Tranquilo")
-            .row.px-5.py-3.justify-content-center.align-items-center
-              .col-lg-5
+            .row.px-2.py-2.justify-content-center.align-items-center
+              .col-lg-5.col-12
                 h4 Tranquilo
                 p.mb-3 Las apariencias podrían engañar, son personas calmadas y con parsimonia, muchas veces no expresan bien lo que desean provocando confusiones. Si bien se muestran reflexivas es posible que no les guste algo y esa tranquilidad se desate en un malestar y pueda volverse en un cliente difícil.
-              .col-lg-7
+              .col-lg-7.col-12
                 img.mx-3(src="@/assets/curso/tema2/8.png",  alt='', style="width:430px; display:block; margin:20px ;")
               
           .tarjeta.back-tab.px-5.py-4(titulo="Curioso")
-            .row.px-5.py-3.justify-content-center.align-items-center
-              .col-lg-5
+            .row.px-2.py-2.justify-content-center.align-items-center
+              .col-lg-5.col-12
                 h4 Con prisa
                 p.mb-3 Se debe ser cuidadoso, si bien a nadie le agradaría que interrumpieran el servicio al cliente por recibir una llamada o enviar un chat, con este tipo de clientes sería más delicado aún. Suelen pensar que ellos son la prioridad y exigen se les atienda rápidamente. Es importante no caer en sus afanes para no cometer errores, pero sí darles el foco de atención según las posibilidades y explicarles muy bien procurando su racionalidad.
-              .col-lg-7
+              .col-lg-7.col-12
                 img.mx-3(src="@/assets/curso/tema2/9.png",  alt='', style="width:430px; display:block; margin:20px ;")
               
     separador
@@ -175,7 +175,7 @@
 export default {
   name: 'Tema2',
   data: () => ({
-    /////
+    mostrarIndicador: true,
   }),
   mounted() {
     this.$nextTick(() => {

@@ -41,7 +41,7 @@
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")(data-aos="fade-up")
       div(titulo="Handheld (computador de mano) o terminales móviles:")
         .row.align-items-star.justify-content-center.p-4
-          .col-lg-2
+          .col-lg-2.col-6.mb-4
             img(src='@/assets/curso/tema4/3.svg')
           .col-lg-10
             p.mb-4 Dispositivo de manejo  portátil, sus funcionalidades son muy similares a la de un SmartPhone, excepto  que son equipos que cumplen con características más robustas para soportar el trabajo diario y con calidad, para que su gestión sea precisa y correcta. En términos populares, es un dispositivo de alta gama y resistente, pero no por esto significa que no se deben tener los cuidados adecuados para conservarlos en buen estado.
@@ -51,7 +51,7 @@
       
       div(titulo="Punto de venta POS")
         .row.align-items-star.justify-content-center.p-4
-          .col-lg-2
+          .col-lg-2.col-6.mb-4
             img(src='@/assets/curso/tema4/4.svg')
           .col-lg-10
             p.mb-3 Son computadoras de un tamaño reducido, pero no son dispositivos móviles, son terminales más completas que se encuentran en puntos de venta fijos en locales y puntos de venta definidos. Estos cuentan con mayor capacidad de trabajo y ejecutan diferentes programas de cómputo, así como la posibilidad de una conectividad más segura, veloz y estable que permite las ventas de prácticamente todos los productos del portafolio de servicios.
