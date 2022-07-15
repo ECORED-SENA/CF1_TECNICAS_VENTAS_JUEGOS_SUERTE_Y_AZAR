@@ -7,17 +7,17 @@
         span 1
       h1  La comunicación comercial
 
-    .row.mb-4.align-items-end
+    .row.mb-4.align-items-end(data-aos="fade-left")
       .col-md-6
         figure
           img(src='@/assets/curso/tema1/img1.jpg', class='img-fluid')
       .col-md-6
         .cajon.color-acento-contenido.p-4.mb-4.col-12(style='background-color: #B8B0D8')
           p Cuando se habla de comunicación enmarcada en el concepto “comercial”, se refiere al tipo de comunicación que se apoya en la fuerza de ventas para lograr que los consumidores adquieran un servicio o producto. Este tipo de comunicación pretende vender de manera directa y fidelizar al cliente, por lo que se requiere una relación con el consumidor para conocer sus características, gustos, necesidades, hábitos y quejas.<br><br/>Es fundamental tener claridad sobre los objetivos y metas de ventas, para alinear el proceso comunicativo entre vendedor y consumidor, de esta manera se encuentra la coherencia entre lo que se busca ofrecer y lo que el cliente recibirá a cambio (Martínez, 2017).
-    p.mb-4 Se debe considerar que la comunicación comercial tiene características particulares, entre ellas:
+    p.mb-4(data-aos="fade-up-right") Se debe considerar que la comunicación comercial tiene características particulares, entre ellas:
 
     
-      .row.justify-content-around.align-items-center
+      .row.justify-content-around.align-items-center(data-aos="fade-up-right")
         .col-md-10
           .tarjeta.bgr.p-4.p-md-4.mb-2
             .row.align-items-center
@@ -40,69 +40,81 @@
     #t_1_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.1	Elementos generales de la comunicación
 
-    p.mb-5 Se deben tener en cuenta diversos componentes que participan en el proceso comunicativo. Según las fuentes, algunos autores determinan siete, otros las resumen en cinco, sin embargo, todas coinciden en los siguientes elementos generales de la comunicación:
+    p.mb-5(data-aos="fade-right") Se deben tener en cuenta diversos componentes que participan en el proceso comunicativo. Según las fuentes, algunos autores determinan siete, otros las resumen en cinco, sin embargo, todas coinciden en los siguientes elementos generales de la comunicación:
 
-    .bg_grad-02
+    .bg_grad-02(data-aos="fade-down")
       .row.mb-4.justify-content-center
         .col-md-6
           ImagenInfografica.color-primario.opa.mb-5(data-aos="flip-up")
             template(v-slot:imagen)
               figure
                 img(src='@/assets/curso/tema1/vec1.svg', alt='Texto que describa la imagen')
-            .tarjeta.bg-amarillo-claro.p-3.cen1(x="92.3%" y="9%" numero="1")
-              .col-md-4
-                img(src='@/assets/curso/tema1/1.svg', alt='Imagen alineada al centro con html' style="width: 76px").mb-0
-              .col-md-12
-                h5 EMISOR:
+            .tarjeta.bg-amarillo-claro.p-3(x="92.3%" y="9%" numero="1")
+              .row.justify-content-center.align-items-center.mb-4
+                .col-md-4
+                  img(src='@/assets/curso/tema1/1.svg', alt='Imagen alineada al centro con html' style="width: 76px")
+                .col-md-8
+                  h5 EMISOR:
+              .row
                 p Es el punto de partida de un mensaje, en el caso de la comunicación comercial, el actor principal que parte desde el rol de emisor podría ser el vendedor, o el cliente si se acerca por su propia iniciativa, incluso el emisor podría configurarse con mensajes publicitarios o máquinas que llamen la atención del cliente para iniciar un proceso comunicativo.
         
-            .tarjeta.bg-amarillo-claro.p-3.cen1(x="98%" y="50.5%" numero="2")
-              .col-md-4
-                img(src='@/assets/curso/tema1/2.svg', alt='Imagen alineada al centro con html' style="width: 76px").mb-0
-              .col-md-12
-                h5 RECEPTOR: 
+            .tarjeta.bg-amarillo-claro.p-3(x="98%" y="50.5%" numero="2")
+              .row.justify-content-center.align-items-center.mb-4
+                .col-md-4
+                  img(src='@/assets/curso/tema1/2.svg', alt='Imagen alineada al centro con html' style="width: 76px").mb-0
+                .col-md-8
+                  h5 RECEPTOR: 
+              .row
                 p Se refiere a quien recibe la información, en un proceso de comunicación comercial, la interacción entre vendedor y cliente se hace dinámico y constantemente se intercambian de roles entre emisor receptor (lo que se denomina retroalimentación). Incluso, al igual que el emisor, podría ser entornos cibernéticos o máquinas.
-                
-            .tarjeta.bg-amarillo-claro.p-3.cen1(x="92.5%" y="91%" numero="3")
-              .col-md-4
-                img(src='@/assets/curso/tema1/3.svg', alt='Imagen alineada al centro con html' style="width: 76px").mb-0
-              .col-md-12
-                h5 CANAL:
+                  
+            .tarjeta.bg-amarillo-claro.p-3(x="92.5%" y="91%" numero="3")
+              .row.justify-content-center.align-items-center.mb-4
+                .col-md-4
+                  img(src='@/assets/curso/tema1/3.svg', alt='Imagen alineada al centro con html' style="width: 76px").mb-0
+                .col-md-8
+                  h5 CANAL:
+              .row
                 p Medio físico donde el mensaje es transmitido, actualmente existen diversidad de canales, desde el natural como el aire, luz, hasta los artificiales como medios digitales, teléfonos, etc. 
-                
-            .tarjeta.bg-amarillo-claro.p-3.cen1(x="11.7%" y="91%" numero="4")
-              .col-md-4
-                img(src='@/assets/curso/tema1/4.svg', alt='Imagen alineada al centro con html' style="width: 76px").mb-0
-              .col-md-12
-                h5 LENGUAJE:
+                  
+            .tarjeta.bg-amarillo-claro.p-3(x="11.7%" y="91%" numero="4")
+              .row.justify-content-center.align-items-center.mb-4
+                .col-md-4
+                  img(src='@/assets/curso/tema1/4.svg', alt='Imagen alineada al centro con html' style="width: 76px").mb-0
+                .col-md-8
+                  h5 LENGUAJE:
+              .row
                 p Se refiere a los signos, códigos en común en que se transmite un mensaje para que ambos extremos puedan entenderse, el lenguaje podría hacerse verbal, escrito o cibernético.
-                
-            .tarjeta.bg-amarillo-claro.p-3.cen1(x="1.7%" y="52%" numero="5")
-              .col-md-4
-                img(src='@/assets/curso/tema1/5.svg', alt='Imagen alineada al centro con html' style="width: 76px").mb-0
-              .col-md-12
-                h5 MENSAJE:
+                  
+            .tarjeta.bg-amarillo-claro.p-3(x="1.7%" y="52%" numero="5")
+              .row.justify-content-center.align-items-center.mb-4
+                .col-md-4
+                  img(src='@/assets/curso/tema1/5.svg', alt='Imagen alineada al centro con html' style="width: 76px").mb-0
+                .col-md-8
+                  h5 MENSAJE:
+              .row 
                 p Se refiere a la propia información que el emisor transmite.
                 
-            .tarjeta.bg-amarillo-claro.p-3.cen1(x="8.2%" y="8.5%" numero="6")
-              .col-md-4
-                img(src='@/assets/curso/tema1/5.svg', alt='Imagen alineada al centro con html' style="width: 76px").mb-0
-              .col-md-12
-                h5 CONTEXTO: 
+            .tarjeta.bg-amarillo-claro.p-3(x="8.2%" y="8.5%" numero="6")
+              .row.justify-content-center.align-items-center.mb-4
+                .col-md-4
+                  img(src='@/assets/curso/tema1/5.svg', alt='Imagen alineada al centro con html' style="width: 76px").mb-0
+                .col-md-8
+                  h5 CONTEXTO: 
+              .row
                 p Circunstancias temporales, espaciales e intenciones (en este caso realizar una venta), que rodean el hecho o acto comunicativo y que permite comprender el mensaje en su justa medida. (Instituto Nacional de Tecnologías Educativas y de Formación del Profesorado, 2007).
 
-    .row.mb-4
-      .col-md-3.p-2
+    .row.mb-4(data-aos="fade-right")
+      .col-md-3.col-8.p-2
         .tarjeta.bgr2.p-2
           .row.align-items-center.justify-content-center
-            .col-md-2
+            .col-md-2.col-2
               img(src='@/assets/curso/temas/icon1.svg' style="width: 35px")
-            .col-md-10
+            .col-md-10.col-10
               h5.text-white.m-0 Esquema de la comunicación
 
-    p.mb-4 Con relación a los conceptos anteriores, la interrelación se desarrolla como se muestra en la siguiente figura 1:
+    p.mb-4(data-aos="fade-right") Con relación a los conceptos anteriores, la interrelación se desarrolla como se muestra en la siguiente figura 1:
     
-    .row.mb-2.justify-content-center
+    .row.mb-2.justify-content-center(data-aos="flip-up")
       .col-md-10.mb-4
         h5 Figura 4
         span Sistemas de producción
@@ -113,18 +125,18 @@
     #t_1_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.2 Niveles de la comunicación
 
-    p.mb-4 En este segmento, se verán varios niveles según sus características, en primer lugar, caracterización de la comunicación comercial según el canal, de otro lado, caracterización según el contexto.
+    p.mb-4(data-aos="fade-right") En este segmento, se verán varios niveles según sus características, en primer lugar, caracterización de la comunicación comercial según el canal, de otro lado, caracterización según el contexto.
 
-    .row.mb-4
-      .col-md-3.p-2
+    .row.mb-4(data-aos="fade-right")
+      .col-md-3.col-8.p-2
         .tarjeta.bgr2.p-2
           .row.align-items-center.justify-content-center
-            .col-md-2
+            .col-md-2.col-2
               img(src='@/assets/curso/temas/icon1.svg' style="width: 35px")
-            .col-md-10
+            .col-md-10.col-10
               h5.text-white.m-0 Característica según el canal:
 
-    p.mb-4 A continuación, se exponen las características según el canal de comunicación:
+    p.mb-4(data-aos="fade-right") A continuación, se exponen las características según el canal de comunicación:
 
     .tarjeta.fondo-slyder.mb-5(data-aos="fade-up")
       SlyderA
@@ -153,23 +165,23 @@
               img(src='@/assets/curso/tema1/3.png', alt='AvatarTop', style="width:715px;")
 
     .row.mb-4
-      .col-md-4.p-2
+      .col-md-4.col-8.p-2
         .tarjeta.bgr2.p-2
           .row.align-items-center.justify-content-center
-            .col-md-2
+            .col-md-2.col-2
               img(src='@/assets/curso/temas/icon1.svg' style="width: 35px")
-            .col-md-10
+            .col-md-10.col-10
               h5.text-white.m-0 Característica según el contexto:
 
-    p.mb-4 A continuación, se exponen las características según el canal de comunicación:
+    p.mb-4(data-aos="fade-right") A continuación, se exponen las características según el canal de comunicación:
 
-    TabsC.color-primario.mb-5
+    TabsC.color-primario.mb-5(data-aos="fade-up")
       .p-3.p-md-4(titulo="Nivel corporativo")
         .row.align-items-center
-          .col-lg-6
+          .col-md-6
             figure
               img.bottomcen(src='@/assets/curso/tema1/bn1.svg', style="width: 360px")
-          .col-lg-6
+          .col-md-6
             p.mb-4 Este busca gestionar la reputación de la empresa, que es un intangible importante, pues se refiere a cómo el público percibe la marca. Es importante comunicar honestidad, buen servicio, imagen organizada, ética, entre otros valores corporativos.
             h5.mb-0 Pregunta de reflexión: 
             p.mb-0 ¿Sabe cuáles son los valores corporativos de la red de apuestas y juegos de azar?
@@ -177,10 +189,10 @@
 
       .p-3.p-md-4(titulo="Nivel de marca")
         .row.align-items-center
-          .col-lg-6
+          .col-md-6
             figure
-              img.bottomcen(src='@/assets/curso/tema1/bn2.svg', style="width: 360px")
-          .col-lg-6
+              img.bottomcen1(src='@/assets/curso/tema1/bn2.svg', style="width: 360px")
+          .col-md-6
             p.mb-5 El objetivo de este nivel es construir una imagen que el público la identifique con facilidad, esto ayuda a comercializar los productos y servicios. Está muy asociado a lo visual, con la disposición de la publicidad en puntos de venta. En caso de llevar uniformes, llevarlos de manera correcta.
             h5.mb-0 Pregunta de reflexión: 
             p.mb-0 ¿Conoce las políticas publicitarias, puntos de venta y vestuario de la fuerza de venta en la red donde está vinculado?
@@ -191,18 +203,18 @@
       #t_1_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
         h2 1.3	Técnicas y habilidades
 
-      .row.align-items-center
+      .row.align-items-center(data-aos="fade-up")
         .col-md-6
-          .cajon.color-acento-contenido(style='background-color: #ffffff').p-4.mb-4
+          .cajon.color-acento-contenido(style='background-color: #ffffff' ).p-4.mb-4.shadow.p-3.mb-5.bg-white.rounded
             p.mb-0 En el área comercial, la comunicación y el contacto con el público son claves para el éxito, existen personas que de manera natural tienen la habilidad persuasiva de vender “hasta corbatas en un desierto”, de ahí la importancia de tener dominio en el uso de técnicas y destrezas en el arte de la comunicación en la venta. 
 
         .col-md-5
           figure
               img.centrarimg(src='@/assets/curso/tema1/img1.png', style="width: 520px")
 
-    p.mb-4 A continuación, se mencionan algunos elementos importantes, que se deben asumir para el buen desempeño de las labores asignadas.
+    p.mb-4(data-aos="fade-right") A continuación, se mencionan algunos elementos importantes, que se deben asumir para el buen desempeño de las labores asignadas.
 
-    .row.mb-4
+    .row.mb-4(data-aos="fade-up")
       .col-lg-12.justify-content-center
         .tarjeta.tarjeta--rosa.p-4
           LineaTiempoC.color-acento-contenido(text-small)
@@ -246,7 +258,7 @@
                 h5.mb-4 Responde las objeciones con paciencia
                 p Ocasionalmente, hay clientes que se interesan, pero se oponen a la compra, el truco es convencer sin coaccionar, no repita lo mismo que ya le dijo para que compre, intenta indagar las motivaciones de la indecisión de compra e identifica la razón para moverse en la satisfacción de su objeción a la compra.
     
-    p.mb-4  Se recomienda visualizar el siguiente video para profundizar sobre la comunicación asertiva
+    p.mb-4(data-aos="fade-right")  Se recomienda visualizar el siguiente video para profundizar sobre la comunicación asertiva
 
     .row.justify-content-center.align-items-center.my-3
       .col-lg-10(data-aos="zoom-in-down")
@@ -263,8 +275,6 @@
                   a.boton.color-acento-botones(href="https://youtu.be/nfJPSfcl_tM" target="_blank")
                     span Ver
                     i.fas.fa-link
-
-    separador
 
 </template>
 

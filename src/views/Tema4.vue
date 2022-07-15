@@ -7,8 +7,8 @@
         span 4
       h1 Manejo de equipos
 
-    p.mb-4 La tecnología se ha adaptado de manera eficiente según las necesidades y los canales de venta, teniendo múltiples opciones de equipos, tales como computadores completos para puntos de venta, tablets especializadas o computadoras móviles de mano (hand held).
-    p.mb-4 Los sistemas de cómputo están compuestos por dos elementos esenciales para el funcionamiento integral: Software y Hardware.
+    p.mb-4(data-aos="fade-right") La tecnología se ha adaptado de manera eficiente según las necesidades y los canales de venta, teniendo múltiples opciones de equipos, tales como computadores completos para puntos de venta, tablets especializadas o computadoras móviles de mano (hand held).
+    p.mb-4(data-aos="fade-right") Los sistemas de cómputo están compuestos por dos elementos esenciales para el funcionamiento integral: Software y Hardware.
 
     .tarjeta--container.row.mb-5
       .col-md.tarjeta.color-custom-8.p-4(data-aos="fade-right") 
@@ -36,7 +36,7 @@
     #t_4_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 4.1 Características, tipos y elementos
 
-    p.mb-4 Tecnológicamente existen muchas opciones en equipos de cómputo orientadas a los puntos de ventas o POS (Sistemas de punto de venta), entre los más comunes se encuentran:
+    p.mb-4(data-aos="fade-right") Tecnológicamente existen muchas opciones en equipos de cómputo orientadas a los puntos de ventas o POS (Sistemas de punto de venta), entre los más comunes se encuentran:
 
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")(data-aos="fade-up")
       div(titulo="Handheld (computador de mano) o terminales móviles:")
@@ -60,7 +60,7 @@
     #t_4_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 4.2	Interfaces
 
-    .row.justify-content-center.align-items-center.mb-4
+    .row.justify-content-center.align-items-center.mb-4(data-aos="fade-right")
       .col-md-6
         figure
           img(src='@/assets/curso/tema4/1.png', class='img-fluid')
@@ -68,55 +68,54 @@
         .cajon.color-acento-contenido(style='background-color: #CCC6E3').p-5
             p.mb-0 Es el canal o medio que permite la comunicación entre el vendedor y la máquina, las interfaces son de tipo software, sus diseño deben ser amigables, para facilitar la interacción y uso de la aplicación, es decir, la ambientación gráfica como colores, disposición de las ventanas, campos, botones, etc.  Cada una de ellas puede variar según su proveedor, al igual que las características y tipos de equipos que requiere para su funcionamiento (ver tabla 2).
 
-    .row.mb-5
+    .row.mb-5(data-aos="fade-right")
       h5.mb-0 Tabla 2
       p <em>Dispositivos, interfaces y equipos de computo</em>
 
-    SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
+    SlyderF.mb-5(columnas="col-lg-6 col-xl-4")(data-aos="fade-down")
       .tarjeta-avatar
         img(src='@/assets/curso/tema4/vec1.svg' alt='AvatarTop')
         .tarjeta.color-1
           .text-black.p-4
-            h2.text-center PANTALLA
-            p interfaz de salida, lo que quiere decir que la máquina comunica al humano a través del ambiente gráfico para trabajar, por lo general en sistemas POS las pantallas son táctiles, por lo que es también interfaz de entrada, pues el humano le transmite información a la máquina.
+            h4.text-center PANTALLA
+            p.text-center interfaz de salida, lo que quiere decir que la máquina comunica al humano a través del ambiente gráfico para trabajar, por lo general en sistemas POS las pantallas son táctiles, por lo que es también interfaz de entrada, pues el humano le transmite información a la máquina.
       
       .tarjeta-avatar
         img(src='@/assets/curso/tema4/vec2.svg' alt='AvatarTop')
         .tarjeta.color-2
           .text-black.p-4
-            h2.text-center IMPRESORA
-            p interfaz de salida, pues la máquina transmite o convierte datos en elementos entendible para el humano. Las impresoras en puntos de venta son con rollos especiales e impresión térmica.
+            h4.text-center IMPRESORA
+            p.text-center interfaz de salida, pues la máquina transmite o convierte datos en elementos entendible para el humano. Las impresoras en puntos de venta son con rollos especiales e impresión térmica.
 
       .tarjeta-avatar
         img(src='@/assets/curso/tema4/vec3.svg' alt='AvatarTop')
         .tarjeta.color-3
           .text-black.p-4
-            h2.text-center TECLADO
-            p dispositivo que presenta el conjunto de las teclas con los símbolos para escribir el idioma y otras adicionales para ejecutar comandos a la computadora. Cómo permite que el humano le ingrese información a la computadora, es un dispositivo de entrada.
+            h4.text-center TECLADO
+            p.text-center dispositivo que presenta el conjunto de las teclas con los símbolos para escribir el idioma y otras adicionales para ejecutar comandos a la computadora. Cómo permite que el humano le ingrese información a la computadora, es un dispositivo de entrada.
 
       .tarjeta-avatar
         img(src='@/assets/curso/tema4/vec4.svg' alt='AvatarTop')
         .tarjeta.color-1
           .text-black.p-4
-            h2.text-center LECTOR CÓDIGO DE BARRA
-            p o escáner es un dispositivo que utiliza un láser para leer un código de barras y entrar información de manera automática al sistema. Por esta razón, igual que el teclado es una interfaz de entrada.
+            h4.text-center LECTOR CÓDIGO DE BARRA
+            p.text-center o escáner es un dispositivo que utiliza un láser para leer un código de barras y entrar información de manera automática al sistema. Por esta razón, igual que el teclado es una interfaz de entrada.
 
       .tarjeta-avatar
         img(src='@/assets/curso/tema4/vec5.svg' alt='AvatarTop')
         .tarjeta.color-2
           .text-black.p-4
-            h2.text-center LECTOR BIOMÉTRICO
-            p se trata de un sensor de huellas digitales dactilares. Es un dispositivo de entrada, que es capaz de leer, guardar e identificar las huellas dactilares.
+            h4.text-center LECTOR BIOMÉTRICO
+            p.text-center se trata de un sensor de huellas digitales dactilares. Es un dispositivo de entrada, que es capaz de leer, guardar e identificar las huellas dactilares.
 
       .tarjeta-avatar
         img(src='@/assets/curso/tema4/vec6.svg' alt='AvatarTop')
         .tarjeta.color-3
           .text-black.p-4
-            h2.text-center MOUSE
-            p dispositivo que se maneja con una sola mano y permite dirigir el movimiento del puntero que aparece en pantalla para transmitir diversas órdenes o comandos, por esto es una interfaz de entrada.
+            h4.text-center MOUSE
+            p.text-center dispositivo que se maneja con una sola mano y permite dirigir el movimiento del puntero que aparece en pantalla para transmitir diversas órdenes o comandos, por esto es una interfaz de entrada.
 
-    p.mb-4 Si bien, existen más dispositivos que permiten la comunicación con la computadora los mencionados son los más importantes y comunes.        
-    separador
+    p.mb-4(data-aos="fade-right") Si bien, existen más dispositivos que permiten la comunicación con la computadora los mencionados son los más importantes y comunes.        
 
 </template>
 

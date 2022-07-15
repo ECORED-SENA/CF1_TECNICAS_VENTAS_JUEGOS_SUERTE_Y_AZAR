@@ -45,6 +45,12 @@ export default {
 .img-p
   top: 10%
   right: -50px
+  @media (max-width: 1500px)
+    top: 0px
+    right: 0px
+  @media (max-width: 1200px)
+    top: 40px
+    right: 0px
 
 .fondo-contenido
   position: absolute

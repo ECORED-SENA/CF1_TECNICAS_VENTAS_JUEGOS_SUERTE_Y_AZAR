@@ -156,12 +156,20 @@
 .img-infografica.color-primario .img-infografica__item__numero, .img-infografica-b.color-primario .img-infografica__item__numero
   color: #FFFFFF
 
-.cen1
-  text-align: center
-  justify-content: center
 
 .bottomcen
   margin-top: 60px
+  margin-left: auto;
+  margin-right: auto;
+  margin-block-end: -25px
+  @media screen and ( max-width: 800px )
+    margin-top: 40px
+    margin-left: auto;
+    margin-right: auto;
+    margin-block-end: 0px
+
+.bottomcen1
+  margin-top: 40px
   margin-left: auto;
   margin-right: auto;
 
@@ -199,11 +207,11 @@
       height: 100%
       background-image: url("../assets/curso/tema2/fondo.jpg")
       background-repeat: no-repeat
-    @media screen and ( max-width: 400px )
+    @media screen and ( max-width: 450px )
       content: ''
       position: absolute
       margin: 0 -3rem
-      top: 20px
+      top: 40px
       left: 0px
       width: calc( 100% + 6rem)
       height: 100%
@@ -228,17 +236,19 @@
   background-color: #E8E8E8 
 
 //Tema3
+.color-info
+  background-color: #D6D1E9
+  width: 500px !important
+  @media screen and ( max-width: 1400px )
+    background-color: #D6D1E9
+    width: 300px !important
 
+.img-infografica.color-secundario .img-infografica__item__dot:before, .img-infografica.color-secundario .img-infografica__item__dot:after, .img-infografica.color-secundario .img-infografica-b__item__dot:before, .img-infografica.color-secundario .img-infografica-b__item__dot:after, .img-infografica-b.color-secundario .img-infografica__item__dot:before, .img-infografica-b.color-secundario .img-infografica__item__dot:after, .img-infografica-b.color-secundario .img-infografica-b__item__dot:before, .img-infografica-b.color-secundario .img-infografica-b__item__dot:after 
+  background-color: #ffffff00
+  opacity: 0%
 
-.infografia-autores2
-  position: relative
-  &__img
-    img
-      position: absolute
-      transition: opacity 0.3s ease-in-out
-      opacity: 0
-      &:hover
-        opacity: 1
+.center
+  margin: 0 auto
 
 //Tema4
 .color-custom-8
