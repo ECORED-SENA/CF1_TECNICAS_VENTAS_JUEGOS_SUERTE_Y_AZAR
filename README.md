@@ -1,6 +1,6 @@
-# **sena-base-2021 v6.0.0**
+# **sena-base-2021 v6.3.0**
 
-## **Enlace GitHubPages**
+## **Servicio al cliente y portafolio para juegos de suerte y azar**
 
 [https://ecored-sena.github.io/CF1_TECNICAS_VENTAS_JUEGOS_SUERTE_Y_AZAR/](https://ecored-sena.github.io/CF1_TECNICAS_VENTAS_JUEGOS_SUERTE_Y_AZAR/)
 
