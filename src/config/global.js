@@ -1,11 +1,29 @@
 export default {
   global: {
     componenteFormativo:
-      'Servicio al cliente y portafolio para juegos de suerte y azar',
+      'Servicio al cliente y portafolio para juegos de suerte y azar.',
     descripcionCurso:
       'A través de este recurso educativo, se exponen conceptos de comunicación, servicio al cliente, portafolio de servicios, manejo de equipos y sistemas de información, requeridos dentro de los procesos necesarios en las ventas para juegos de suerte y azar de Colombia. Este recurso educativo, le facilitará al aprendiz la adquisición de conocimientos para el presente programa.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
+    imagenesDecorativasBanner: [
+      {
+        clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
+        imagen: require('@/assets/curso/portada/flot1.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-2'],
+        imagen: require('@/assets/curso/portada/flot2.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/flot3.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-4'],
+        imagen: require('@/assets/curso/portada/flot4.png'),
+      },
+    ],
   },
   menuPrincipal: {
     menu: [
@@ -284,25 +302,25 @@ export default {
   ],
   complementario: [
     {
-      texto:
-        '<em>ISO Tools Excellence</em>. (2017). Seguridad de la información. ',
-      tipo: 'Blog',
-      link:
-        'https://www.pmg-ssi.com/2017/08/norma-iso-27002-politica-seguridad/ ',
+      tema: 'Estrategias para la segmentación de mercados',
+      referencia:
+        'Cámara de Comercio de Medellín. (2020). <em>Suftware</em> Tendencias de negocios - Mercadeo y ventas',
+      tipo: 'Video',
+      link: 'https://www.google.com/',
     },
     {
-      texto:
-        'Blanco, G., C. (2013). Comunicación y atención al cliente. Macmillan Iberia, S.A. ',
-      tipo: 'Libro',
-      link:
-        'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/42955 ',
+      tema: 'Estrategias para la segmentación de mercados',
+      referencia:
+        'Cámara de Comercio de Medellín. (2020). <em>Suftware</em> Tendencias de negocios - Mercadeo y ventas',
+      tipo: 'Video',
+      link: 'https://www.google.com/',
     },
     {
-      texto:
-        'Orozco, L., J. D. D. (2016). Protocolo para la organización de actos oficiales y empresariales. IC Editorial. ',
-      tipo: 'Libro',
-      link:
-        'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/44621 ',
+      tema: 'Estrategias para la segmentación de mercados',
+      referencia:
+        'Cámara de Comercio de Medellín. (2020). <em>Suftware</em> Tendencias de negocios - Mercadeo y ventas',
+      tipo: 'Video',
+      link: 'https://www.google.com/',
     },
   ],
   creditos: {
