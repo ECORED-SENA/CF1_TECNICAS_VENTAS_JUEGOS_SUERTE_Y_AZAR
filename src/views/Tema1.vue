@@ -54,7 +54,7 @@
                 .col-md-4
                   img(src='@/assets/curso/tema1/1.svg', alt='Imagen alineada al centro con html' style="width: 76px")
                 .col-md-8
-                  h5 EMISOR:
+                  h5 EMISOR
               .row
                 p Es el punto de partida de un mensaje, en el caso de la comunicación comercial, el actor principal que parte desde el rol de emisor podría ser el vendedor, o el cliente si se acerca por su propia iniciativa, incluso el emisor podría configurarse con mensajes publicitarios o máquinas que llamen la atención del cliente para iniciar un proceso comunicativo.
         
@@ -63,7 +63,7 @@
                 .col-md-4
                   img(src='@/assets/curso/tema1/2.svg', alt='Imagen alineada al centro con html' style="width: 76px").mb-0
                 .col-md-8
-                  h5 RECEPTOR: 
+                  h5 RECEPTOR
               .row
                 p Se refiere a quien recibe la información, en un proceso de comunicación comercial, la interacción entre vendedor y cliente se hace dinámico y constantemente se intercambian de roles entre emisor receptor (lo que se denomina retroalimentación). Incluso, al igual que el emisor, podría ser entornos cibernéticos o máquinas.
                   
@@ -72,7 +72,7 @@
                 .col-md-4
                   img(src='@/assets/curso/tema1/3.svg', alt='Imagen alineada al centro con html' style="width: 76px").mb-0
                 .col-md-8
-                  h5 CANAL:
+                  h5 CANAL
               .row
                 p Medio físico donde el mensaje es transmitido, actualmente existen diversidad de canales, desde el natural como el aire, luz, hasta los artificiales como medios digitales, teléfonos, etc. 
                   
@@ -81,7 +81,7 @@
                 .col-md-4
                   img(src='@/assets/curso/tema1/4.svg', alt='Imagen alineada al centro con html' style="width: 76px").mb-0
                 .col-md-8
-                  h5 LENGUAJE:
+                  h5 LENGUAJE
               .row
                 p Se refiere a los signos, códigos en común en que se transmite un mensaje para que ambos extremos puedan entenderse, el lenguaje podría hacerse verbal, escrito o cibernético.
                   
@@ -90,7 +90,7 @@
                 .col-md-4
                   img(src='@/assets/curso/tema1/5.svg', alt='Imagen alineada al centro con html' style="width: 76px").mb-0
                 .col-md-8
-                  h5 MENSAJE:
+                  h5 MENSAJE
               .row 
                 p Se refiere a la propia información que el emisor transmite.
                 
@@ -99,7 +99,7 @@
                 .col-md-4
                   img(src='@/assets/curso/tema1/5.svg', alt='Imagen alineada al centro con html' style="width: 76px").mb-0
                 .col-md-8
-                  h5 CONTEXTO: 
+                  h5 CONTEXTO
               .row
                 p Circunstancias temporales, espaciales e intenciones (en este caso realizar una venta), que rodean el hecho o acto comunicativo y que permite comprender el mensaje en su justa medida. (Instituto Nacional de Tecnologías Educativas y de Formación del Profesorado, 2007).
 
@@ -116,14 +116,14 @@
     
     .row.mb-2.justify-content-center(data-aos="flip-up")
       .col-md-10.mb-4
-        h5 Figura 4
-        span Sistemas de producción
+        h5 Figura 1
+        span Esquema de la comunicación
       .col-md-10
         img(src='@/assets/curso/tema1/fig1.svg' alt='AvatarTop')
     separador
 
     #t_1_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 1.2 Niveles de la comunicación
+      h2 1.2.	Niveles de comunicación comercial
 
     p.mb-4(data-aos="fade-right") En este segmento, se verán varios niveles según sus características, en primer lugar, caracterización de la comunicación comercial según el canal, de otro lado, caracterización según el contexto.
 
@@ -134,32 +134,32 @@
             .col-md-2.col-2
               img(src='@/assets/curso/temas/icon1.svg' style="width: 35px")
             .col-md-10.col-10
-              h5.text-white.m-0 Característica según el canal:
+              h5.text-white.m-0 Característica según el canal
 
     p.mb-4(data-aos="fade-right") A continuación, se exponen las características según el canal de comunicación:
 
     .tarjeta.fondo-slyder.mb-5(data-aos="fade-up")
       SlyderA
-        .row.p-4
+        .row.p-5
           .col-lg-4
-            h5 El medio ambiente:
-              p Es el medio que rodea externamente al sistema en donde se evidencian los aspectos sociales, económicos, políticos y culturales. Dado estos siempre deben estar relacionados con el contexto que los rodea y que influyen de manera directa o indirecta sobre el funcionamiento del mismo.
+            h5 Canales personales:
+              p Son los medios cuyo objetivo es llegar a un público específico de manera directa. Por ser un canal directo hay mayor oportunidad de interacción y persuasión. Una ventaja importante, es que es controlable por la red o empresa y de esta depende la estandarización de su equipo de ventas. 
           .col-lg-8
             figure
               img(src='@/assets/curso/tema1/1.png', alt='AvatarTop', style="width:715px;")
 
         .row.p-4
           .col-lg-4
-            h5 Insumos:
-              p Son aquellos componentes que ingresan al ciclo productivo que usualmente son las materias primas.
+            h5 Canales impersonales:
+              p Se refiere a medios masivos para la comunicación e interacción con los clientes, tales como redes sociales, chatbots, etc. Allí se responden dudas generales, se da respuesta a un gran número de clientes que tengan la misma pregunta. 
           .col-lg-8
             figure
               img(src='@/assets/curso/tema1/2.png', alt='AvatarTop', style="width:715px;")
 
         .row.p-4
           .col-lg-4
-            h5 Entradas:
-              p Son los ingresos que tiene un sistema o un proceso, los cuales pueden ser recursos naturales, mano de obra humana, tecnologías o información que permiten la fluidez dentro del sistema.
+            h5 Canal cibernético:
+              p Gracias a la inteligencia artificial, van surgiendo canales con características mixtas, es decir, tanto personal como impersonal. Apoyados en herramientas digitales con la capacidad de atender a miles de clientes a la vez, con medios que facilitan el respaldo y confiabilidad de la información, garantizando la atención oportuna.  
           .col-lg-8
             figure
               img(src='@/assets/curso/tema1/3.png', alt='AvatarTop', style="width:715px;")
@@ -171,7 +171,7 @@
             .col-md-2.col-2
               img(src='@/assets/curso/temas/icon1.svg' style="width: 35px")
             .col-md-10.col-10
-              h5.text-white.m-0 Característica según el contexto:
+              h5.text-white.m-0 Característica según el contexto
 
     p.mb-4(data-aos="fade-right") A continuación, se exponen las características según el canal de comunicación:
 
@@ -183,7 +183,7 @@
               img.bottomcen(src='@/assets/curso/tema1/bn1.svg', style="width: 360px")
           .col-md-6
             p.mb-4 Este busca gestionar la reputación de la empresa, que es un intangible importante, pues se refiere a cómo el público percibe la marca. Es importante comunicar honestidad, buen servicio, imagen organizada, ética, entre otros valores corporativos.
-            h5.mb-0 Pregunta de reflexión: 
+            h5.mb-0 <i>Pregunta de reflexión</i>
             p.mb-0 ¿Sabe cuáles son los valores corporativos de la red de apuestas y juegos de azar?
             span De no recordarlos, puede consultarlos con el supervisor o sitio web de la empresa.
 
@@ -194,7 +194,7 @@
               img.bottomcen1(src='@/assets/curso/tema1/bn2.svg', style="width: 360px")
           .col-md-6
             p.mb-5 El objetivo de este nivel es construir una imagen que el público la identifique con facilidad, esto ayuda a comercializar los productos y servicios. Está muy asociado a lo visual, con la disposición de la publicidad en puntos de venta. En caso de llevar uniformes, llevarlos de manera correcta.
-            h5.mb-0 Pregunta de reflexión: 
+            h5.mb-0 <i>Pregunta de reflexión</i>
             p.mb-0 ¿Conoce las políticas publicitarias, puntos de venta y vestuario de la fuerza de venta en la red donde está vinculado?
             span De no recordar, estas se pueden consultar con el supervisor o el sitio web oficial.
     separador
@@ -206,7 +206,7 @@
       .row.align-items-center(data-aos="fade-up")
         .col-md-6
           .cajon.color-acento-contenido(style='background-color: #ffffff' ).p-4.mb-4.shadow.p-3.mb-5.bg-white.rounded
-            p.mb-0 En el área comercial, la comunicación y el contacto con el público son claves para el éxito, existen personas que de manera natural tienen la habilidad persuasiva de vender “hasta corbatas en un desierto”, de ahí la importancia de tener dominio en el uso de técnicas y destrezas en el arte de la comunicación en la venta. 
+            p.mb-0 En el área comercial, la comunicación y el contacto con el público son claves para el éxito, existen personas que de manera natural tienen la habilidad persuasiva de vender <i>“hasta corbatas en un desierto”</i>, de ahí la importancia de tener dominio en el uso de técnicas y destrezas en el arte de la comunicación en la venta. 
 
         .col-md-5
           figure
@@ -223,7 +223,7 @@
                 figure
                   img(src='@/assets/curso/tema1/4.png', style="width: 505px")
               .col-md-6
-                h5.mb-4 Conocer los servicios que se ofrecen
+                h5.mb-4 <i>Conocer los servicios que se ofrecen</i>
                 p Un vendedor que improvisa y empieza a dar explicaciones de productos de manera insegura, difícilmente dará confianza a su cliente, una de las maneras efectivas para contrarrestar el titubeo es dominar el portafolio de servicios de tu red de apuestas y juegos de azar.
 
             .row.justify-content-center(titulo="Principio 2")
@@ -232,14 +232,14 @@
                   img(src='@/assets/curso/tema1/5.png', style="width: 505px")
               .col-md-6
                 h5.mb-4 Asertividad en la comunicación
-                p Es la práctica donde un vendedor no se centra en vender, sino que su objetivo principal es cooperar con el cliente. Es un vendedor que, además, logra la combinación perfecta entre una conducta agresiva y pasiva en el momento de la venta (Nuño, 2018). El concepto asertividad está asociado al momento, persona, palabras y actitudes adecuadas para que el mensaje llegue de la mejor forma, de manera popular, podría referirse a ese “tacto” al comunicar ya sea para ofrecer un producto, resolver una duda, o calmar disgustos de los clientes.
+                p Es la práctica donde un vendedor no se centra en vender, sino que su objetivo principal es <i>cooperar con el cliente.</i> Es un vendedor que, además, logra la combinación perfecta entre una conducta agresiva y pasiva en el momento de la venta (Nuño, 2018). El concepto asertividad está asociado al momento, persona, palabras y actitudes adecuadas para que el mensaje llegue de la mejor forma, de manera popular, podría referirse a ese <i>“tacto”</i> al comunicar ya sea para ofrecer un producto, resolver una duda, o calmar disgustos de los clientes.
 
             .row.justify-content-center(titulo="Principio 3")
               .col-md-6
                 figure
                   img(src='@/assets/curso/tema1/6.png', style="width: 505px")
               .col-md-6
-                h5.mb-4 Analiza y conoce tu segmento de mercado
+                h5.mb-4 <i>Analiza y conoce tu segmento de mercado</i>
                 p Conocer y alinearse a las necesidades de su público, así como las maneras de establecer relaciones comerciales con las personas de la zona es muy importante, si bien cada cliente es diferente, por lo general, hay factores comunes según la ciudad, barrio o sector donde se realizan las ventas. Es importante enfocarse en el contexto social y entender las motivaciones de tus compradores.
 
             .row.justify-content-center(titulo="Principio 4")
@@ -247,7 +247,7 @@
                 figure
                   img(src='@/assets/curso/tema1/7.png', style="width: 505px")
               .col-md-6
-                h5.mb-4 Escuchar de manera activa
+                h5.mb-4 <i>Escuchar de manera activa</i>
                 p Tiene la ventaja de recibir información de los clientes para saber qué ruta y qué manera de atención es la más adecuada para aumentar el éxito de venta. Escuchar de manera adecuada (con contacto visual y demostrando atención), proporciona sensaciones agradables para el cliente haciéndolo sentir importante y aumentar su confianza. Adicionalmente, al identificar el perfil del cliente sabrás qué producto y servicio adicional podría necesitar esta persona.
 
             .row.justify-content-center(titulo="Principio 5")
@@ -255,7 +255,7 @@
                 figure
                   img(src='@/assets/curso/tema1/8.png', style="width: 505px")
               .col-md-6
-                h5.mb-4 Responde las objeciones con paciencia
+                h5.mb-4 <i>Responde las objeciones con paciencia</i>
                 p Ocasionalmente, hay clientes que se interesan, pero se oponen a la compra, el truco es convencer sin coaccionar, no repita lo mismo que ya le dijo para que compre, intenta indagar las motivaciones de la indecisión de compra e identifica la razón para moverse en la satisfacción de su objeción a la compra.
     
     p.mb-4(data-aos="fade-right")  Se recomienda visualizar el siguiente video para profundizar sobre la comunicación asertiva
@@ -269,8 +269,7 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  h3.mb-1 Las características de la comunicación asertiva:
-                  p.text-small https://youtu.be/nfJPSfcl_tM
+                  h3.mb-1 Las características de la comunicación asertiva
                 .col-md-auto
                   a.boton.color-acento-botones(href="https://youtu.be/nfJPSfcl_tM" target="_blank")
                     span Ver

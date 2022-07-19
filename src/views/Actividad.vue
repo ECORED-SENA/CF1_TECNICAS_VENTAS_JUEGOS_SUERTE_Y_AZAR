@@ -7,15 +7,15 @@
       .col-6.col-md-4.col-lg-3.mb-4.mb-md-0
         .tarjeta.h-100.d-flex.align-items-center.p-4
           figure
-            img(src="@/assets/template/seleccion-multiple.svg", alt="Texto que describa la imagen")
+            img(src="@/assets/template/arrastrar.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
-          h2 Respuesta múltiple
-        p.mb-4 Profundizar conceptos de protocolo de atención al cliente y comunicación a través del análisis de situaciones hipotéticas y preguntas teóricas para fijar el conocimiento desarrollado y aplicarlo correctamente.
+          h2 Conocimientos sobre atención al cliente
+        p.mb-4 Relacionar conceptos de atención al cliente y características claves para prestar mejor servicio en el contexto más próximo.
         .tarjeta.bgr_17.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0
-              p.fw-bold.mb-0 Respuestas a preguntas múltiples
+              p.fw-bold.mb-0 Apareamiento
             .col-auto
               a.boton.boton--b(:href="obtenerLink('/actividades/story.html')" target="_blank")
                 span Realizar

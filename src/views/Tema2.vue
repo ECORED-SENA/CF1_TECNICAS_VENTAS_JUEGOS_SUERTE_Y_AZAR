@@ -118,7 +118,7 @@
               .col-lg-7.col-12
                 img.mx-3(src="@/assets/curso/tema2/8.png",  alt='', style="width:430px; display:block; margin:20px ;")
               
-          .tarjeta.back-tab.px-5.py-4(titulo="Curioso")
+          .tarjeta.back-tab.px-5.py-4(titulo="Con prisa")
             .row.px-2.py-2.justify-content-center.align-items-center
               .col-lg-5.col-12
                 h4 Con prisa

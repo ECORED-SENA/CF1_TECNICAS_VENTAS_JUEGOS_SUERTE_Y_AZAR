@@ -1,7 +1,7 @@
 export default {
   global: {
     componenteFormativo:
-      'Servicio al cliente y portafolio para juegos de suerte y azar.',
+      'Servicio al cliente y portafolio para juegos de suerte y azar',
     descripcionCurso:
       'A través de este recurso educativo, se exponen conceptos de comunicación, servicio al cliente, portafolio de servicios, manejo de equipos y sistemas de información, requeridos dentro de los procesos necesarios en las ventas para juegos de suerte y azar de Colombia. Este recurso educativo, le facilitará al aprendiz la adquisición de conocimientos para el presente programa.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
@@ -54,7 +54,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
-            titulo: 'Niveles de la comunicación',
+            titulo: 'Niveles de comunicación comercial',
             hash: 't_1_2',
           },
           {
@@ -75,13 +75,14 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: '2.1.	Perfil del cliente',
+            titulo: 'Perfil del cliente',
             hash: 't_2_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
-            titulo: 'Sugerencias para la atención al cliente',
+            titulo:
+              'Sugerencias para la atención al cliente según sus características',
             hash: 't_2_2',
           },
           {
@@ -176,151 +177,91 @@ export default {
   },
   referencias: [
     {
-      referencia:
-        'Arismendy, A. (2013). ¿Cómo vender?, manual de ventas y atención al cliente. A. Arismendy.',
+      referencia: 'Coljuegos. (2019). Apuestas deportivas.',
+      link: 'https://www.coljuegos.gov.co/publicaciones/300440/novedosos/',
     },
     {
-      referencia: 'Barbera, G. E. (2013). El estilo e-portafolio. UOC. ',
-    },
-    {
-      referencia:
-        'Cajal, F., A. (2020). Portafolio de servicios: tipos, partes y ejemplos. Lifeder. ',
-    },
-    {
-      referencia:
-        'Cámara de Comercio de Medellín. (s. f.). Protocolo de atención a personas en situación de discapacidad. ',
+      referencia: 'Coljuegos. (2019). Lotería tradicional.',
       link:
-        'https://www.camaramedellin.com.co/portals/0/transparencia/documentos/2019/protocolo_atencion_%20personas_en_situaci%c3%b3n_de_discapacidad_ccma.pdf',
+        'https://www.coljuegos.gov.co/publicaciones/300668/juego_de_loteria_tradicional/',
     },
     {
       referencia:
-        'Carrera, F., Jiménez, G., A., y Viera, L., L. (2019). Técnicas de comunicación. IC Editorial',
-    },
-    {
-      referencia:
-        'Fernández, A. M. (2021). Definición de relaciones interpersonales. Tipos, instancias y rasgos. Definicion.com',
-      link: 'https://definicion.com/relaciones-interpersonales/',
-    },
-    {
-      referencia:
-        'Funiber.org. (2017). Beneficios de incorporar tecnología a las empresas.',
+        'Coljuegos. (2019). Perfil del apostador Colombiano. Estudio de mercado. Bandstrar.',
       link:
-        'https://blogs.funiber.org/direccion-empresarial/2017/06/14/funiber-beneficios-tecnologia-empresas',
+        'https://www.coljuegos.gov.co/publicaciones/306308/perfil-del-apostador-colombiano/',
+    },
+    {
+      referencia: 'Coljuegos. (2021). Rifas',
+      link: 'https://www.coljuegos.gov.co/publicaciones/300638/rifas_/',
     },
     {
       referencia:
-        'IMF-formación.com. (2019). Atención al cliente a través de medios tecnológicos. Blog marketing.',
+        'Instituto Nacional de Tecnologías Educativas y de Formación del Profesorado. (2007). Elementos de la comunicación. INTEF - Ministerio de educación.',
       link:
-        'https://blogs.imf-formacion.com/blog/marketing/atencion-al-cliente-medios-tecnologicos/?sp=6358541982459737508418/page/4',
+        'http://recursos.cnice.mec.es/lengua/profesores/eso1/t1/teoria_1.htm',
     },
     {
       referencia:
-        'Instituto Nacional de Ciberseguridad. (2020). Cómo proteger la información de los clientes.',
+        'Leyva, M. R. (2008). Diseño curricular por competencias. Asociación Nacional de Facultades y Escuelas de Ingeniería.',
+    },
+    {
+      referencia:
+        'López, R. V. (2017). Comunicación y atención al cliente en hostelería y turismo. IC Editorial.',
+      link: 'https://www-ebooks7-24-com.bdigital.sena.edu.co/?il=8742',
+    },
+    {
+      referencia:
+        'Martínez, C. (2017). ¿Qué es la comunicación comercial y cuáles son sus niveles? telcel.com.',
       link:
-        'https://www.incibe.es/protege-tu-empresa/blog/proteger-informacion-personal-los-clientes-empresa',
-    },
-    {
-      referencia: 'Julia, M. U. (2020). Características de la comunicación.',
-      link: 'https://www.caracteristicas.co/comunicacion',
+        'https://www.telcel.com/empresas/tendencias/notas/que-es-comunicacion-comercial',
     },
     {
       referencia:
-        'Mateos, M. Á. (2012). Atención básica al cliente. IC Editorial.',
-    },
-    {
-      referencia:
-        'Models, Inc., & Communication. (2011). Shannon and weaver model of communication. Communication theory.',
+        'Nuño, A. (2018). La comunicación asertiva en ventas, la más correcta. linkedin.com.',
       link:
-        'https://www.communicationtheory.org/shannon-and-weaver-model-of-communication/',
-    },
-    {
-      referencia:
-        'Novella, R., Repetto, A., Robino, C., & Rucci, G. (2018). Millennials en América Latina y el Caribe: ¿trabajar o estudiar? (resumen ejecutivo). Interamerican Development Bank. ',
-      link: 'https://doi.org/10.18235/0001411',
-    },
-    {
-      referencia:
-        'Oliveras, R., I. (2009). El cliente y la calidad en el servicio. Editorial Trillas.',
-    },
-    {
-      referencia:
-        'Pérez, R., W. (2021). El protocolo en la atención al cliente.',
-      link:
-        'https://www.protocolo.org/social/etiqueta-social/el-protocolo-en-la-atencion-al-cliente.html',
-    },
-    {
-      referencia: 'Tiposde.com. (2017). Tipos de relaciones interpersonales.',
-      link: 'https://www.tiposde.com/relaciones_interpersonales.html',
+        'https://www.linkedin.com/pulse/la-comunicaci%C3%B3n-asertiva-en-ventas-m%C3%A1s-correcta-agustin-nu%C3%B1o/?originalSubdomain=es',
     },
   ],
   glosario: [
     {
-      termino: 'Canal de comunicación',
+      termino: 'Chatbots',
       significado:
-        'medio físico a través del cual se puede comunicar, sirve para el intercambio de información entre el emisor y el receptor ya sea oral, escrito, lenguaje de señas, etc.',
+        'Chat robot o bot es un software con componentes de inteligencia artificial que permite simular conversaciones con personas a través de respuestas automáticas.',
     },
     {
-      termino: 'Comunicación',
+      termino: 'Cibernético',
       significado:
-        'acción consciente de intercambio entre dos o más personas para recibir o trasmitir información',
+        'Ciencia que estudia los sistemas de comunicación y de regulación automática de los seres vivos y los aplica a sistemas electrónicos y mecánicos que se parecen a ellos. En este caso, todo lo relacionado con la internet y nuevas tendencias tecnológicas.',
     },
     {
-      termino: 'Etiqueta',
+      termino: 'Estrategia precio-gancho',
       significado:
-        'norma de conducta que cumple expectativas en el comportamiento social, gana importancia en los eventos públicos y privados que requieran de ceremonia.',
+        'El gancho comercial o gancho publicitario, es una técnica utilizada por empresas para la captación de clientes potenciales. Dicha estrategia consiste en publicitar ofertas con precios de mercado por debajo de la media con el objetivo de llamar la atención del cliente y provocar una visita al establecimiento del mismo.',
     },
     {
-      termino: 'Jerarquización',
+      termino: 'Impresión térmica',
       significado:
-        'estructura que establece orden, refiere ordenar algo según la jerarquía de niveles, grados, importancia, etc.',
+        'Impresión a través del calor como medio para producir la imagen o el texto en papel, por lo que no se necesita tinta o tóner. Sin embargo, sí requiere de un papel térmico que permita la impresión.',
     },
     {
-      termino: 'Normatividad',
+      termino: 'Inteligencia artificial',
       significado:
-        'conjunto de leyes o reglamentos que contienen las conductas y procedimientos que deben cumplir las personas en instituciones, empresas, países, etc. ',
+        'Programa de computación diseñado para realizar determinadas operaciones que se consideran propias de la inteligencia humana, como el autoaprendizaje o dar respuestas bajo un contexto específico.',
     },
     {
-      termino: 'Portafolio de productos y servicios',
+      termino: 'POS',
       significado:
-        'recopilación de productos y servicios ofrecidos por las empresas, es una herramienta fundamental para las ventas.',
-    },
-    {
-      termino: 'Protocolo',
-      significado:
-        'sistema de reglas que establecen la estandarización tanto de la comunicación como de procesos que se llevan a cabo en una empresa.',
-    },
-    {
-      termino: 'Recursos tecnológicos',
-      significado:
-        'medio que se vale de la tecnología para cumplir el propósito para el cual se hizo, puede ser una computadora, un teléfono móvil, una máquina, etc.',
-    },
-    {
-      termino: 'Relaciones interpersonales',
-      significado:
-        'interacción entre dos o más personas, se trata de relaciones sociales donde se dan sentimientos, emociones como por ejemplo el amor, los gustos, los intereses, etc.',
+        '<i>Point of sale</i>, sistema de punto de venta. Computadoras y sistemas de información cuya funcionalidad está orientada a facturar y ejecutar programas de ventas. Puede existir uno o muchos puntos de venta o cajas conectados a un sistema central de control.',
     },
   ],
   complementario: [
     {
-      tema: 'Estrategias para la segmentación de mercados',
-      referencia:
-        'Cámara de Comercio de Medellín. (2020). <em>Suftware</em> Tendencias de negocios - Mercadeo y ventas',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
-    },
-    {
-      tema: 'Estrategias para la segmentación de mercados',
-      referencia:
-        'Cámara de Comercio de Medellín. (2020). <em>Suftware</em> Tendencias de negocios - Mercadeo y ventas',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
-    },
-    {
-      tema: 'Estrategias para la segmentación de mercados',
-      referencia:
-        'Cámara de Comercio de Medellín. (2020). <em>Suftware</em> Tendencias de negocios - Mercadeo y ventas',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
+      tema: 'Servicio al cliente',
+      referencia: 'Coljuegos. (2019). Perfil del apostador Colombiano.',
+      tipo: 'Artículo Perfil del apostador Colombiano. (2015, 2017, 2019).',
+      link:
+        'https://www.coljuegos.gov.co/publicaciones/306308/perfil-del-apostador-colombiano/',
     },
   ],
   creditos: {

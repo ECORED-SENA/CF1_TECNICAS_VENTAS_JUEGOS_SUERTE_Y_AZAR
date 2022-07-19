@@ -21,9 +21,9 @@
     separador 
 
     #t_3_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 3.1 Elementos
+      h2 3.1	Tipos de productos
 
-    p.mb-4(data-aos="fade-right") Las comercializadoras de juegos de suerte y azar han ampliado de manera significativa sus servicios y pocas redes se dedican solo a vender productos de apuestas, la oferta está enmarcada en servicios on line como pagos de facturas, recaudos financieros, giro de dineros, entre otros. Si bien el enfoque específico de este componente formativo se enmarca en la comercialización de juegos de suerte y azar, no sobra mencionar algunos servicios que, por lo general, todo vendedor se podrá encontrar para ampliar sus posibilidades de ventas.
+    p.mb-4(data-aos="fade-right") Las comercializadoras de juegos de suerte y azar han ampliado de manera significativa sus servicios y pocas redes se dedican solo a vender productos de apuestas, la oferta está enmarcada en servicios <i>on line</i> como pagos de facturas, recaudos financieros, giro de dineros, entre otros. Si bien el enfoque específico de este componente formativo se enmarca en la comercialización de juegos de suerte y azar, no sobra mencionar algunos servicios que, por lo general, todo vendedor se podrá encontrar para ampliar sus posibilidades de ventas.
     p.mb-4(data-aos="fade-right") Algunos servicios del portafolio de servicios y productos podrían ser:
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-down-right")

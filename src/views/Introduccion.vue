@@ -9,7 +9,7 @@
           i.fas.fa-info
       h1 Introducción
     
-    p.mb-5(data-aos="fade-down") Le damos la bienvenida al componente formativo <b>“Protocolos de servicio al cliente”</b>, y para comenzar satisfactoriamente este recorrido se invita a explorar el recurso que se muestra a continuación:
+    p.mb-5(data-aos="fade-down") En el siguiente recurso, se puede revisar la introducción a este material formativo.
     
     .bg_grad-01(data-aos="fade-down")
       .row.justify-content-center.align-items-center
