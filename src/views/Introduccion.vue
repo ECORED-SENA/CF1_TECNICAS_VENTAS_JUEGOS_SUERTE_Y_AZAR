@@ -16,8 +16,8 @@
         .col-12.col-md-12
           figure
             .video
-              iframe(width="560" height="315" src="https://www.youtube.com/embed/VdBU-D7dDXg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-  
+              iframe(width="853" height="480" src="https://www.youtube.com/embed/KMTlVNXvZMY" title="Servicio al cliente y portafolio para juegos de suerte y azar: introducción" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+
 </template>
 
 <script>

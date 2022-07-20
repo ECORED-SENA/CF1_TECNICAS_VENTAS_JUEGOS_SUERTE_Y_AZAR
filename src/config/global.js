@@ -279,27 +279,6 @@ export default {
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional - Santander',
       },
-      {
-        nombre: 'Esperanza Cardona Grisales',
-        cargo: 'Experto temático',
-        centro: 'Centro de Comercio y Servicios Regional - Cauca',
-      },
-      {
-        nombre: 'Alex García',
-        cargo: 'Diseñador instruccional',
-        centro:
-          'Centro de la Industria, la Empresa y los Servicios Regional - Norte de Santander',
-      },
-      {
-        nombre: 'Alix Cecilia Chinchilla Rueda',
-        cargo: 'Asesor metodológico',
-        centro: 'Centro de Diseño y Metrología Regional - Distrito Capital',
-      },
-      {
-        nombre: 'José Gabriel Ortiz Abella',
-        cargo: 'Corrector de estilo',
-        centro: 'Centro de Diseño y Metrología Regional - Distrito Capital',
-      },
     ],
     desarrolloProducto: [
       {
@@ -309,42 +288,31 @@ export default {
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Leyson Fabian Castaño Perez',
-        cargo: 'Soporte organizacional',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
-      },
-      {
-        nombre: 'Yuly Rey',
+        nombre: 'Diana Carolina Acevedo Barón',
         cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional - Santander',
       },
       {
         nombre: 'Zuleidy María Ruíz Torres',
-        cargo: 'Producción audiovisual',
+        cargo: 'Revisión de guión audiovisual',
         centro: 'Centro de Comercio y Servicios Regional - Tolima',
       },
       {
-        nombre: 'Yuly RWilson Andrés Arenales Cáceres',
-        cargo: 'Producción audiovisual',
+        nombre: 'Wilson Andrés Arenales Cáceres',
+        cargo: 'Ilustración',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional - Santander',
       },
       {
         nombre: 'Gilberto Junior Rodríguez Rodríguez',
-        cargo: 'Producción audiovisual',
+        cargo: 'Validación audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional - Santander',
       },
       {
-        nombre: 'Camilo Andrés Bolaño Rey',
+        nombre: 'María Carolina Tamayo López',
         cargo: 'Locución',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional - Santander',
-      },
-      {
-        nombre: 'Ernesto Navarro Jaimes',
-        cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional - Santander',
       },
@@ -355,28 +323,15 @@ export default {
           'Centro Industrial del Diseño y la Manufactura Regional - Santander',
       },
       {
-        nombre: 'Yicelly Estefania Mesa Silva',
-        cargo: 'Producción audiovisual',
+        nombre: 'Carlos Mauricio Gómez Delgado',
+        cargo: 'Desarrollo front-end',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional - Santander',
       },
       {
-        nombre: 'Ludwyng Corzo García',
-        cargo: 'Producción audiovisual',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional - Santander',
-      },
-      {
-        nombre: 'Carlos Andrés Díaz Pinto',
-        cargo: 'Desarrollo Front-end',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional - Santander',
-      },
-      {
-        nombre: 'Yuli Marcela Gómez Tarazona',
-        cargo: 'Validación de diseño y contenido',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+        nombre: 'Milady Tatiana Villamil Castellanos',
+        cargo: 'Validación y vinculación en plataforma LMS',
+        centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
     ],
     gestoresRepositorio: [
