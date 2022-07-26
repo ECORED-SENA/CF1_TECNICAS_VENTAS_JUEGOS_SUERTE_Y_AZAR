@@ -294,7 +294,7 @@ export default {
           'Centro Industrial del Diseño y la Manufactura Regional - Santander',
       },
       {
-        nombre: '',
+        nombre: 'Juan Daniel Polanco',
         cargo: 'Validación Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
@@ -306,25 +306,19 @@ export default {
           'Centro Industrial del Diseño y la Manufactura Regional - Santander',
       },
       {
-        nombre: '',
-        cargo: 'Soporte front-end',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
-      },
-      {
-        nombre: '',
+        nombre: 'Andrea Botello',
         cargo: 'Validación de Maquetación',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional - Santander',
       },
       {
-        nombre: '',
+        nombre: 'Luis Gabriel Urueta',
         cargo: 'Actividades didácticas',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional - Santander',
       },
       {
-        nombre: '',
+        nombre: ' Yuli Marcela Gómez Tarazona',
         cargo: 'Validación Contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional - Santander',
