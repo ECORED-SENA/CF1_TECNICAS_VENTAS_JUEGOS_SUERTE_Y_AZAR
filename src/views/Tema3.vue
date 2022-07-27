@@ -86,9 +86,6 @@
       .col-md-6.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar
           img(src='@/assets/curso/tema3/avatar3.svg' alt='AvatarTop')
-          //- .tarjeta debe ir acompañado de una de una de estas clases => 
-          //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
-          //- estas clases tambien tienen un modificador --borde
           .tarjeta.color-acento-contenido
             .p-5
               h2.text-center OTROS PRODUCTOS

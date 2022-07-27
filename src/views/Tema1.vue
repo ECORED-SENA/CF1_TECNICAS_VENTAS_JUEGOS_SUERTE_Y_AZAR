@@ -262,16 +262,16 @@
 
     .row.justify-content-center.align-items-center.my-3
       .col-lg-10(data-aos="zoom-in-down")
-        .tarjeta.color-acento-contenido.p-4.mb-5
+        .tarjeta.color-tarjeta.p-4.mb-5
           .row.justify-content-center.align-items-center
             .col-3.col-sm-2.col-lg-1
               img(src="@/assets/curso/tema1/icon2.svg",  alt='', style="width:60px; display:block; margin:auto 0 ;")
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  h3.mb-1 Las características de la comunicación asertiva
+                  h3.mb-1.text-white Las características de la comunicación asertiva
                 .col-md-auto
-                  a.boton.color-acento-botones(href="https://youtu.be/nfJPSfcl_tM" target="_blank")
+                  a.boton.color-boton(href="https://youtu.be/nfJPSfcl_tM" target="_blank")
                     span Ver
                     i.fas.fa-link
 
