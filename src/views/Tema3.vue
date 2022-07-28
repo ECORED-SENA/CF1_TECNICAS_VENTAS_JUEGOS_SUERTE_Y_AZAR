@@ -33,26 +33,26 @@
             figure
               img(src='@/assets/curso/tema3/vec1.svg', alt='Texto que describa la imagen')
 
-          .tarjeta.color-info.p-4(x="30%" y="34%" numero="")
+          .tarjeta.color-info.p-4(x="26%" y="34%" numero="")
             .h5.mb-2 CHANCE
             p.mb-5 Es una modalidad de juego que se ofrece a nivel nacional, disponible en los puntos de venta. donde el jugador en un formulario de manera manual o sistematizada, indica el valor de su apuesta y escoge números de su preferencia (la cantidad de números depende del tipo de producto ofrecido). Si estos, coinciden con el resultado de la  lotería autorizada, gana premios en dinero. 
             figure
               img.center(src='@/assets/curso/tema3/1.png', alt='Texto que describa la imagen' style="width: 410px")
 
-          .tarjeta.color-info.p-4(x="30%" y="60.2%" numero="")
+          .tarjeta.color-info.p-4(x="26%" y="60.2%" numero="")
             .h5.mb-2 RIFAS
             p.mb-5 La rifa es una modalidad de juego de suerte y azar mediante la cual un operador autorizado sortea en una fecha predeterminada,  premios en especie entre quienes hubieren adquirido o fueren poseedores de una o varias boletas emitidas con numeración en serie continua y puestas a la venta con un precio fijo (Art 27 Ley 643/2001 y Decreto 1068/2015).
             span Cuando la rifa opere en dos o más departamentos y el Distrito Capital, la explotación corresponde a Coljuegos. (Coljuegos, 2021).
             figure
               img.center(src='@/assets/curso/tema3/2.png', alt='Texto que describa la imagen' style="width: 410px")
 
-          .tarjeta.color-info.p-4(x="70%" y="34%" numero="")
+          .tarjeta.color-info.p-4(x="66%" y="34%" numero="")
             .h5.mb-2 LOTERIA
             p.mb-5 Es una modalidad de juego de suerte y azar realizada en forma periódica por un ente legal autorizado, el cual emite y pone en circulación billetes indivisos o fraccionados de precios fijos singularizados con una combinación numérica y de otros caracteres a la vista obligándose a otorgar un premio en dinero, fijado previamente en el correspondiente plan al tenedor del billete o fracción cuya combinación o aproximaciones preestablecidas coincidan en su orden con aquella obtenida al azar en sorteo público efectuado por la entidad gestora. (Coljuegos, 2021)
             figure
               img.center(src='@/assets/curso/tema3/3.png', alt='Texto que describa la imagen' style="width: 410px")
 
-          .tarjeta.color-info.p-4(x="68%" y="61%" numero="")
+          .tarjeta.color-info.p-4(x="64%" y="61%" numero="")
             .h5.mb-2 APUESTAS DEPORTIVAS
             p.mb-5 Artículo 38. Juegos novedosos. Son cualquier otra modalidad de juegos de suerte y azar distintos de las loterías tradicionales o de billetes, de las apuestas permanentes y de los demás juegos a que se refiere la presente ley. Las apuestas deportivas se consideran juegos novedosos, que no requiera la presencia del apostador. Lo anterior únicamente en relación con los juegos que administra y/o explota Coljuegos.(Coljuegos, 2021)
             figure
@@ -95,7 +95,7 @@
 
 
     #t_3_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 3.2 Características
+      h2 3.2 Dinámicas y aplicación
 
     p.mb-4(data-aos="fade-right") En la actualidad existen múltiples marcas de juegos de suerte y azar, estas son reguladas por la normatividad nacional y departamental según las políticas regionales y de la república de Colombia.
     .row.mb-4.justify-content-center.align-items-center(data-aos="fade-right")

@@ -34,7 +34,7 @@
     separador       
 
     #t_4_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 4.1 Características, tipos y elementos
+      h2 4.1 Tipos de equipos
 
     p.mb-4(data-aos="fade-right") Tecnológicamente existen muchas opciones en equipos de cómputo orientadas a los puntos de ventas o POS (Sistemas de punto de venta), entre los más comunes se encuentran:
 
@@ -44,7 +44,7 @@
           .col-lg-2.col-6.mb-4
             img(src='@/assets/curso/tema4/3.svg')
           .col-lg-10
-            p.mb-4 Dispositivo de manejo  portátil, sus funcionalidades son muy similares a la de un <i>smartPhone,</i> excepto  que son equipos que cumplen con características más robustas para soportar el trabajo diario y con calidad, para que su gestión sea precisa y correcta. En términos populares, es un dispositivo de alta gama y resistente, pero no por esto significa que no se deben tener los cuidados adecuados para conservarlos en buen estado.
+            p.mb-4 Dispositivo de manejo  portátil, sus funcionalidades son muy similares a las de un <i>smartPhone,</i> excepto  que son equipos que cumplen con características más robustas para soportar el trabajo diario y con calidad, para que su gestión sea precisa y correcta. En términos populares, es un dispositivo de alta gama y resistente, pero no por esto significa que no se deben tener los cuidados adecuados para conservarlos en buen estado.
             p.mb-4 Por lo general, son sistemas que se conectan de manera remota en las redes de datos móviles, dependiendo del modelo, podrían venir con impresora de recibos, lectores de código de barra y otros dispositivos adicionales como lectores de tarjetas de crédito, identificador biométrico, etc.
             p Su uso está orientado a vendedores sin un punto de venta fijo quienes ofertan sus productos a pie. Al ser móvil, el vendedor tiene la posibilidad de desplazarse con este, a los lugares potenciales donde puede encontrar los consumidores, por ende, tendrá mayor rango u opciones de ventas. Una desventaja es que no es posible ofertar todos los servicios del portafolio, pues hay algunas limitaciones como la inseguridad de las calles y la capacidad del equipo que no soporta mayor consumo de todos los productos ofertados; estas transacciones deben hacerse con equipos más completos y conexiones más estables.
 
@@ -92,7 +92,7 @@
         .tarjeta.color-3
           .text-black.p-4
             h4.text-center TECLADO
-            p.text-center Dispositivo que presenta el conjunto de las teclas con los símbolos para escribir el idioma y otras adicionales para ejecutar comandos a la computadora. Cómo permite que el humano le ingrese información a la computadora, es un dispositivo de entrada.
+            p.text-center Dispositivo que presenta el conjunto de las teclas con los símbolos para escribir el idioma y otras adicionales para ejecutar comandos a la computadora. Como permite que el humano le ingrese información a la computadora, es un dispositivo de entrada.
 
       .tarjeta-avatar
         img(src='@/assets/curso/tema4/vec4.svg' alt='AvatarTop')

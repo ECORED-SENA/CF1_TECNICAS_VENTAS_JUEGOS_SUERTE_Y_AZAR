@@ -269,7 +269,7 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  h3.mb-1.text-white Las características de la comunicación asertiva
+                  h3.mb-1.text-white Criterios de la comunicación asertiva
                 .col-md-auto
                   a.boton.color-boton(href="https://youtu.be/nfJPSfcl_tM" target="_blank")
                     span Ver

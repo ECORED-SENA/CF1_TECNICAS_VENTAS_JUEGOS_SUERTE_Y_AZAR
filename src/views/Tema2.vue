@@ -17,7 +17,7 @@
     separador
 
     #t_2_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 2.1.	Perfil de los clientes
+      h2 2.1.	Perfil del cliente
 
     .row.justify-content-center.align-items-center.mb-4(data-aos="fade-up")
       .col-md-5
@@ -41,9 +41,9 @@
         .infografia-autores__img: img(src="@/assets/curso/tema2/flo4.svg" style="left: 71% ; right:  ; top: 62% ; bottom:  ; width: 280px ")
         .infografia-autores__img: img(src="@/assets/curso/tema2/flo5.svg" style="left: 64% ; right:  ; top: 80% ; bottom:  ; width: 280px ")
         .infografia-autores__img: img(src="@/assets/curso/tema2/flo6.svg" style="left: 12% ; right:  ; top: 80% ; bottom:  ; width: 280px ")
-        .infografia-autores__img: img(src="@/assets/curso/tema2/flo7.svg" style="left: 6% ; right:  ; top: 62% ; bottom:  ; width: 280px ")
+        .infografia-autores__img: img(src="@/assets/curso/tema2/flo9.svg" style="left: 6% ; right:  ; top: 62% ; bottom:  ; width: 280px ")
         .infografia-autores__img: img(src="@/assets/curso/tema2/flo8.svg" style="left: 6% ; right:  ; top: 30% ; bottom:  ; width: 280px ")
-        .infografia-autores__img: img(src="@/assets/curso/tema2/flo9.svg" style="left: 13% ; right:  ; top: 15% ; bottom:  ; width: 280px ")
+        .infografia-autores__img: img(src="@/assets/curso/tema2/flo7.svg" style="left: 13% ; right:  ; top: 15% ; bottom:  ; width: 280px ")
     separador
 
     #t_2_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
