@@ -49,7 +49,7 @@
             template(v-slot:imagen)
               figure
                 img(src='@/assets/curso/tema1/vec1.svg', alt='Texto que describa la imagen')
-            .tarjeta.bg-amarillo-claro.p-3(x="92.3%" y="9%" numero="1")
+            .tarjeta.bg-amarillo-claro.p-3(x="92.3%" y="9%" numero="")
               .row.justify-content-center.align-items-center.mb-4
                 .col-md-4
                   img(src='@/assets/curso/tema1/1.svg', alt='Imagen alineada al centro con html' style="width: 76px")
@@ -58,7 +58,7 @@
               .row
                 p Es el punto de partida de un mensaje, en el caso de la comunicación comercial, el actor principal que parte desde el rol de emisor podría ser el vendedor, o el cliente si se acerca por su propia iniciativa, incluso el emisor podría configurarse con mensajes publicitarios o máquinas que llamen la atención del cliente para iniciar un proceso comunicativo.
         
-            .tarjeta.bg-amarillo-claro.p-3(x="98%" y="50.5%" numero="2")
+            .tarjeta.bg-amarillo-claro.p-3(x="98%" y="50.5%" numero="")
               .row.justify-content-center.align-items-center.mb-4
                 .col-md-4
                   img(src='@/assets/curso/tema1/2.svg', alt='Imagen alineada al centro con html' style="width: 76px").mb-0
@@ -67,7 +67,7 @@
               .row
                 p Se refiere a quien recibe la información, en un proceso de comunicación comercial, la interacción entre vendedor y cliente se hace dinámico y constantemente se intercambian de roles entre emisor receptor (lo que se denomina retroalimentación). Incluso, al igual que el emisor, podría ser entornos cibernéticos o máquinas.
                   
-            .tarjeta.bg-amarillo-claro.p-3(x="92.5%" y="91%" numero="3")
+            .tarjeta.bg-amarillo-claro.p-3(x="92.5%" y="91%" numero="")
               .row.justify-content-center.align-items-center.mb-4
                 .col-md-4
                   img(src='@/assets/curso/tema1/3.svg', alt='Imagen alineada al centro con html' style="width: 76px").mb-0
@@ -76,7 +76,7 @@
               .row
                 p Medio físico donde el mensaje es transmitido, actualmente existen diversidad de canales, desde el natural como el aire, luz, hasta los artificiales como medios digitales, teléfonos, etc. 
                   
-            .tarjeta.bg-amarillo-claro.p-3(x="11.7%" y="91%" numero="4")
+            .tarjeta.bg-amarillo-claro.p-3(x="11.7%" y="91%" numero="")
               .row.justify-content-center.align-items-center.mb-4
                 .col-md-4
                   img(src='@/assets/curso/tema1/4.svg', alt='Imagen alineada al centro con html' style="width: 76px").mb-0
@@ -85,7 +85,7 @@
               .row
                 p Se refiere a los signos, códigos en común en que se transmite un mensaje para que ambos extremos puedan entenderse, el lenguaje podría hacerse verbal, escrito o cibernético.
                   
-            .tarjeta.bg-amarillo-claro.p-3(x="1.7%" y="52%" numero="5")
+            .tarjeta.bg-amarillo-claro.p-3(x="1.7%" y="52%" numero="")
               .row.justify-content-center.align-items-center.mb-4
                 .col-md-4
                   img(src='@/assets/curso/tema1/5.svg', alt='Imagen alineada al centro con html' style="width: 76px").mb-0
@@ -94,7 +94,7 @@
               .row 
                 p Se refiere a la propia información que el emisor transmite.
                 
-            .tarjeta.bg-amarillo-claro.p-3(x="8.2%" y="8.5%" numero="6")
+            .tarjeta.bg-amarillo-claro.p-3(x="8.2%" y="8.5%" numero="")
               .row.justify-content-center.align-items-center.mb-4
                 .col-md-4
                   img(src='@/assets/curso/tema1/5.svg', alt='Imagen alineada al centro con html' style="width: 76px").mb-0
