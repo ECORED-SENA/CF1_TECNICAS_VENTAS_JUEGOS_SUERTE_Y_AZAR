@@ -16,7 +16,7 @@
         .col-12.col-md-12
           figure
             .video
-              iframe(width="853" height="480" src="https://www.youtube.com/embed/KMTlVNXvZMY" title="Servicio al cliente y portafolio para juegos de suerte y azar: introducción" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+              iframe(width="942" height="530" src="https://www.youtube.com/embed/zFJkd1vap7U" title="Fundamentación en servicio al cliente y portafolio para juegos de suerte y azar" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
 </template>
 

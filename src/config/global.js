@@ -199,7 +199,7 @@ export default {
       referencia:
         'Instituto Nacional de Tecnologías Educativas y de Formación del Profesorado. (2007). Elementos de la comunicación. INTEF - Ministerio de educación.',
       link:
-        'http://recursos.cnice.mec.es/lengua/profesores/eso1/t1/teoria_1.htm',
+        'https://formacion.intef.es/pluginfile.php/105746/mod_imscp/content/1/index.html',
     },
     {
       referencia:
@@ -360,7 +360,7 @@ export default {
         centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
       {
-        nombre: '',
+        nombre: 'Edwin Mauricio Lamprea Hernández',
         cargo: 'Validación y vinculación en plataforma LMS',
         centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
