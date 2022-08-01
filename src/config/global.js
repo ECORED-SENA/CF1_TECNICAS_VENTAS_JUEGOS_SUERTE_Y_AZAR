@@ -1,7 +1,7 @@
 export default {
   global: {
     componenteFormativo:
-      'Servicio al cliente y portafolio para juegos de suerte y azar',
+      'Fundamentación en servicio al cliente y portafolio para juegos de suerte y azar',
     descripcionCurso:
       'A través de este recurso educativo, se exponen conceptos de comunicación, servicio al cliente, portafolio de servicios, manejo de equipos y sistemas de información, requeridos dentro de los procesos necesarios en las ventas para juegos de suerte y azar de Colombia. Este recurso educativo, le facilitará al aprendiz la adquisición de conocimientos para el presente programa.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
