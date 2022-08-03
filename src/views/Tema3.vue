@@ -15,7 +15,7 @@
           :style="{'background-image': `url(${require('@/assets/curso/tema3/1.jpg')})`}"
         )
         .bloque-texto-g__texto.p-4
-          p.mb-5 Cada red o empresa de apuestas y juegos de azar cuenta con su portafolio de servicios propio, por esto que es importante, al hacer parte de una de estas compañías se debe participar activamente de las capacitaciones específicas, no obstante, en este recurso se mencionarán algunos servicios y productos generales que las agencias de apuestas y juegos de azar tienen.
+          p.mb-5 Cada red o empresa de apuestas y juegos de azar cuenta con su portafolio de servicios propio, por esto es importante que, al hacer parte de una de estas compañías se debe participar activamente de las capacitaciones específicas, no obstante, en este recurso se mencionarán algunos servicios y productos generales que las agencias de apuestas y juegos de azar tienen.
     
     p.mb-4(data-aos="fade-right") Actualmente, el portafolio de servicios de las comercializadoras de juegos de azar ha ampliado sus opciones ofertando más allá de servicios de apuestas.
     separador 
@@ -95,7 +95,7 @@
 
 
     #t_3_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 3.2 Dinámicas y aplicación
+      h2 3.2 Dinámica y aplicación
 
     p.mb-4(data-aos="fade-right") En la actualidad existen múltiples marcas de juegos de suerte y azar, estas son reguladas por la normatividad nacional y departamental según las políticas regionales y de la república de Colombia.
     .row.mb-4.justify-content-center.align-items-center(data-aos="fade-right")

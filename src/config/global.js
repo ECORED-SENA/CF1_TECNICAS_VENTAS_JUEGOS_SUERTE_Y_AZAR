@@ -177,7 +177,7 @@ export default {
   },
   referencias: [
     {
-      referencia: 'Coljuegos. (2019). Apuestas deportivas.',
+      referencia: 'Coljuegos. (2019). Qué son los juegos novedosos.',
       link: 'https://www.coljuegos.gov.co/publicaciones/300440/novedosos/',
     },
     {

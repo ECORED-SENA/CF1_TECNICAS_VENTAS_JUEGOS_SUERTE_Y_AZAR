@@ -108,13 +108,7 @@
             h4.text-center LECTOR BIOMÉTRICO
             p.text-center Se trata de un sensor de huellas digitales dactilares. Es un dispositivo de entrada, que es capaz de leer, guardar e identificar las huellas dactilares.
 
-      .tarjeta-avatar
-        img(src='@/assets/curso/tema4/vec6.svg' alt='AvatarTop')
-        .tarjeta.color-3
-          .text-black.p-4
-            h4.text-center <i>MOUSE</i>
-            p.text-center Dispositivo que se maneja con una sola mano y permite dirigir el movimiento del puntero que aparece en pantalla para transmitir diversas órdenes o comandos, por esto es una interfaz de entrada.
-
+ 
     p.mb-4(data-aos="fade-right") Si bien, existen más dispositivos que permiten la comunicación con la computadora los mencionados son los más importantes y comunes.        
 
 </template>
